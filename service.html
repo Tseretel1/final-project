@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="service.css">
+    <title>Services</title>
+</head>
+<body>
+      <style>
+        body {
+          overflow-x: hidden;
+        }
+    
+        .fade-in {
+          opacity: 0;
+          animation: fadeInAnimation ease-in 0.4s forwards;
+        }
+    
+        .fade-out {
+          opacity: 1;
+          animation: fadeOutAnimation ease-in 0.1s forwards;
+        }
+    
+        @keyframes fadeInAnimation {
+          0% {
+            opacity: 0;
+          }
+          100% {
+            opacity: 1;
+          }
+        }
+    
+        @keyframes fadeOutAnimation {
+          0% {
+            opacity: 1;
+          }
+          100% {
+            opacity: 0;
+          }
+        }
+      </style>
+    
+    <div class="header">
+        <div class="header-logo">
+            <img class="header-logo1" src="pics4/container1logo.png" width="35px" height="60px" alt="">
+            <h2 class="header-logo-text">Organick</h2>
+        </div>
+        <div class="header-nav">
+            <a class="nav-texts" href="index.html"><div class="nav-text">Home</div></a> 
+            <a class="nav-texts" href="about.html"><div class="nav-text">About</div></a> 
+            <a class="nav-texts" href="service.html"> <div class="nav-text">Pages</div></a>
+            <a class="nav-texts" href="shop.html"> <div class="nav-text">Shop</div></a> 
+            <a class="nav-texts" href="contact.html"><div class="nav-text">projects</div></a> 
+            <a class="nav-texts" href="blog.html"><div class="nav-text">News</div></a> 
+        </div>
+        <div class="header-input">
+            <div class="input-display">
+               <input class="email" type="search">
+               <img class="searchbaricon" src="pics4/searchbaricon.png"  alt="">
+            </div>
+
+            <div class="container1-cart">
+                <img class="cart-icon" src="pics4/container1Cart Icon.png" width="50px" alt="">
+                <div class="container1-cart-text">Cart(0)</div>
+            </div> 
+        </div>
+    </div>
+
+
+    <div class="low-background">
+        <h1 class="about-us">Services</h1>
+    </div>
+
+
+    <div class="better-agriculure">
+        <div class="better-header">
+            <img src="pics4/What we Grow.png" class="what-we-grow" alt="">
+            <p class="better-text">Better Agriculture for Better Future</p>
+        </div>
+
+
+        <div class="txili-div">
+
+            <div class="txili-texts1">
+                <div class="dayry-products">
+                    <img src="pics4/Milk Bottle.png" class="milkbottle" alt="">
+                    <div class="text-main">Dairy Products</div>
+                    <div class="text-notmain">Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium doloremqlaudantium. Sed ut perspiciatis</div>
+                </div>
+                <div class="dayry-products">
+                    <img src="pics4/Online Store.png" class="milkbottle" alt="">
+                    <div class="text-main">Store Services</div>
+                    <div class="text-notmain">Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium doloremqlaudantium. Sed ut perspiciatis</div>
+                </div>
+                <div class="dayry-products ">
+                    <img src="pics4/Delivery.png" class="milkbottle" alt="">
+                    <div class="text-main">Delivery Services</div>
+                    <div class="text-notmain">Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium doloremqlaudantium. Sed ut perspiciatis</div>
+                </div>
+            </div>
+
+            <div class="txili-img"><img src="pics4/txileuloba.png" class="txileuloba" alt=""></div>
+
+
+            <div class="txili-texts1">
+                <div class="dayry-products dayry-productsleft">
+                    <img src="pics4/fotlebi.png" class="milkbottle" alt="">
+                    <div class="text-main textmainleft">Agricultural Services</div>
+                    <div class="text-notmain textmainleft">Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium doloremqlaudantium. Sed ut perspiciatis</div>
+                </div>
+                <div class="dayry-products dayry-productsleft">
+                    <img src="pics4/kartoshka.png" class="milkbottle" alt="">
+                    <div class="text-main textmainleft">Organic Products</div>
+                    <div class="text-notmain textmainleft">Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium doloremqlaudantium. Sed ut perspiciatis</div>
+                </div>
+                <div class="dayry-products dayry-productsleft" >
+                    <img src="pics4/stafilo.png" class="milkbottle" alt="">
+                    <div class="text-main textmainleft">Fresh Vegetables</div>
+                    <div class="text-notmain textmainleft">Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium doloremqlaudantium. Sed ut perspiciatis</div>
+                </div>
+
+            </div>
+        </div>
+
+        <a href="srcsingle.html" class="button-parent"><button class="button">Explore More</button></a>
+    </div>
+
+
+
+    <div class="everyday" id="everyday">
+        <div class="video" id="video"><video src="pics4/video.mp4" autoplay muted loop controls class="vidoclass" id="vidoclass"></video><div class="xclosebutton" id="xclosebutton"><span onclick="closevideo()"id="close" class="close">&times;</span></div></div>
+        <div class="better-header margin-header" id="marginheader">
+            <img src="pics4/What we Grow.png" class="what-we-grow" alt="">
+            <p class="better-text">Better Agriculture for Better Future</p>
+            <p class="simplyy">Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the </p>
+            <div class="playbutton" id="playbutton"><img src="pics4/play.png" class="play" id="play" alt="" onclick="playvideo()"></div> 
+        </div>
+    </div>
+
+
+
+
+    <div class="footer">
+       <div class="footer-footer">
+    
+        <div class="footer1">
+            <div class="contact">
+                <div class="utility2 utility"> Utility Pages</div>
+                    <div class="right">Style guyde</div>
+                    <a class="nav-texts" href="page404.html">  <div class="right">404 Not Found</div></a>
+                    <a class="nav-texts" href="password.html"><div class="right">Pasword Protected</div></a>
+                    <a class="nav-texts" href="licenses.html"><div class="right">licences</div></a>
+                    <a class="nav-texts" href="changelog.html"> <div class="right">Changelog</div>  </a> 
+            </div>
+        </div>
+    
+    
+        <div class="footer2">
+            <div class="footer-logo">
+                <img class="organic-logo1" src="pics4/container1logo.png" alt="">
+                Organick
+            </div>
+    
+            <div class="simplyy2">Simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum simply dummy text of the printing 
+            </div>
+    
+            <div class="footer-imgs">
+                <img class="imgs" src="pics4/Insta.png" alt="">
+                <img class="imgs" src="pics4/facebook.png" alt="">
+                <img class="imgs" src="pics4/twitter.png" alt="">
+                <img class="imgs" src="pics4/pinterest.png" alt="">
+            </div>
+        </div>
+    
+    
+    
+        <div class="footer3">
+            <div class="contact contact2"> 
+                <div class="utility">Conract us</div>
+                <div class="email2">Email</div>  
+                <div class="texteleft">giorg541@gmail.com</div>
+                <div class="email2">Phone</div>
+                <div class="texteleft">595-1072-35</div> 
+                <div class="email2">Address  </div>
+                <div class="texteleft">Chikobavas</div>
+              
+            </div>
+         </div>
+    
+       </div>
+    
+    
+        <div class="final-details">
+            Copyright © Organick | Designed by VictorFlow Templates - Powered by Webflow
+        </div>
+    </div>
+
+    <script src="services.js"></script>
+</body>
+</html>

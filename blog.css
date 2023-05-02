@@ -1,0 +1,1633 @@
+html,body{    
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+} 
+::-webkit-scrollbar{
+    background-color: white;
+}
+::-webkit-scrollbar-button{
+    height: 0px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: black;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: none;
+    border-radius: 10px;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.header-logo{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.nav-texts{
+    text-decoration: none;
+    color: black;
+}
+.header-nav{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly;       
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #274C5B;
+}
+.nav-texts{
+    font-size: 100%;
+}
+.header-input{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.header-logo-text{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 160%;
+    color: #274C5B;
+}
+.email{
+    width: 100px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    border: none; 
+    border: 1px solid grey;
+}
+.email::placeholder{
+    font-style: italic;
+    font-weight: 600;
+    opacity: 0.7;
+    padding: 0 10px;
+}
+.searchbaricon{
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    padding: 13px;
+    background-color: #7EB693;
+    transition: 0.3s all ease-in-out;
+}
+.searchbaricon:hover{
+    background-color: #274C5B;
+    scale: 1.1;
+}
+.input-display{
+    display: flex;
+    align-items: center;
+}
+.container1-cart{
+    border:1px solid grey;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    width: 120px;
+    height: 50px;
+}
+.container1-cart-text{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 108%;
+    line-height: 21px;
+}
+.cart-icon{
+    width: 50px;
+    height: 50px;
+}
+.low-background{
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: url(pics9/backgroundgreen.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-us{
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+    color: #274C5B;
+}
+.profile-little{
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+.discover-weekly{
+    width: 100%;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.discover-card{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.discover-text{
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 29px;
+    color: #274C5B;
+    width: 50%;
+}
+.discover-flex{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.more-news{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 220px;
+    height: 80px;
+    background: #FFFFFF;
+    border: 2px solid #274C5B;
+    border-radius: 16px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #274C5B;
+    transition: 0.3s all ease-in-out;
+}
+.more-news:hover{
+    background-color: #274C5B;
+    color: white;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.cardscenter{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cards-with-background{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    justify-content: space-between;
+}
+.cardo{
+    width: 500px;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+.card-white-back{
+    width: 80%;
+    height: 200px;
+    background-color: white;
+    margin-top: 250px;
+    border-radius: 30px;
+    box-shadow:0px 0px 10px rgba(0, 0, 0, 0.518);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.back-card1{
+  background: url(pics9/greenleafs.png);
+}
+.back-card2{
+    background: url(pics9/tomatos.png);
+}
+.back-card3{
+    background: url(pics9/carrots.png);
+}
+.back-card4{
+    background: url(pics9/manleafs.png);
+}
+.back-card5{
+    background: url(pics9/womenleafs.png);
+}
+.back-card6{
+    background: url(pics9/trash.png);
+}
+.november{
+    position: absolute;
+    width: 70px;
+    float: left;
+    margin-top: 10px;
+}
+.white-card{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.yellow-profile{
+    display: flex;
+    align-items: center;
+}
+.profile-text{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80%;
+    color: #274C5B;
+}
+.Benefits{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.benefits-text1{
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 100%;
+    color: #274C5B;
+    width: 100%;
+    margin: 0;
+}
+.benefits-text2{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 80%;
+    color: #525C60;
+    width: 100%;
+    margin: 0;
+}
+.benefits-arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    padding: 10px;
+    background: #EFD372;
+    border-radius: 16px;       
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #274C5B;
+    margin-top: 10px;
+    transition: 0.2s all ease-in-out;
+    cursor: pointer;
+}
+.benefits-arrow:hover{
+    background-color: #eac748;
+    color: #0a0f11;
+    letter-spacing: 1px;
+}
+.arrow2{
+    width: 20px;
+    height: 20px;
+    background-color: #274C5B;
+    border-radius: 50%;
+}
+.readmore{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #274C5B;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-inputs{
+    width: 80%;
+    height: 250px;
+    background: url(pics9/footer.jpg);
+    border-radius: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.footer-text-parent{
+    width: 80%;
+    height: 150px;
+    display: flex;
+}
+.footer-text{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.footer-text-text{
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 180%;
+    color: #FFFFFF;
+    width: 50%;
+}
+.footer-input{
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+.email{
+    width: 60%;
+    height: 80px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    border: none;
+}
+.email::placeholder{
+    font-style: italic;
+    font-weight: 600;
+    opacity: 0.7;
+    padding: 0 10px;
+}
+.Subscribe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 80px;
+    background: #274C5B;
+    border-radius: 16px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 100%;
+    color: #FFFFFF;
+    transition: 0.3s all ease-in-out;
+    border: none;
+    margin-left: 5px;
+}
+.Subscribe:hover{
+    background-color: #518296;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.footer-footer{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer1{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+    border-right: 1px solid grey;
+}
+
+.footer2{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer3{
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+    border-left: 1px solid grey;
+    text-align: left;
+    justify-content: flex-start;
+}
+.utility{
+    width: 100%;
+    height: 10%;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #274C5B;
+    text-align: left;
+}
+.utility2{
+    text-align: right;
+}
+.right{
+    text-align: right;
+}
+.texteleft{
+    text-align: left;
+}
+.footer-logo{       
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: #274C5B;
+    display: flex;
+    align-items: center;
+}
+.footer-imgs{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.organic-logo{
+    width: 50px;
+    height: 50px;
+}
+.email2{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: left;
+    color: #525C60;
+    margin-top: 30px;
+}
+.contact{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.final-details{
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.organic-logo1{
+    width: 50px;
+    height: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:1200px){
+.footer{
+    height: 700px;
+}
+.footer-footer{
+    height: 270px;
+}
+.utility{
+    font-size: 15px;
+}
+.email2{
+    font-size: 20px;
+    text-align: center;
+}
+.organic-logo1{
+    width: 30px;
+    height: 50px;
+}
+}
+
+@media only screen and (max-width:1000px){
+  
+    .footer-inputs{
+        width: 80%;
+        height: 240px;
+    }
+    .footer-text-parent{
+        width: 80%;
+        height: 150px;
+        display: flex;
+    }
+    .footer-text{
+        width: 50%;
+    }
+    .footer-text-text{
+        font-size: 150%;
+        width: 100%;
+    }
+    .footer-input{
+        display: flex;
+        width: 50%;
+        align-items: center;
+    }
+    .email{
+        width: 60%;
+        height: 60px;
+    }
+    .Subscribe{
+        width: 40%;
+        height: 60px;
+    }
+    .footer{
+        height: 500px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+
+    /*footeri*/
+    .footer-inputs{
+        width: 80%;
+        height: 180px;
+    }
+    .footer-text{
+        width: 50%;
+    }
+    .footer-text-text{
+        font-size: 120%;
+        width: 100%;
+    }
+    .footer-input{
+        display: flex;
+        width: 50%;
+        align-items: center;
+    }
+    .email{
+        width: 60%;
+        height: 30px;
+        border-radius: 5px;
+        font-size: 11px;
+    }
+    .Subscribe{
+        width: 40%;
+        height: 30px;
+        font-size: 13px;
+        border-radius: 5px;
+    }
+    .footer-footer{
+        height: 170px;
+    }
+    .email2{
+        font-size: 20px;
+    }
+    .utility{
+        font-size: 20px;
+    }
+    .imgs{
+        width: 20px;
+        height: 20px;
+    }
+    .final-details{
+        margin-top: 0px;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .header{
+        height: 60px;
+    }
+    .nav-texts{
+        font-size: 60%;
+    }
+    .header-logo-text{
+        font-size: 80%;
+    }
+    .email{
+        width: 45px;
+        height: 15px;
+    }
+    .searchbaricon{
+        width: 7px;
+        height: 7px;
+        padding: 7px;
+    }
+    .container1-cart{
+        border-radius: 30px;
+        width: 60px;
+        height: 20px;
+    }
+    .container1-cart-text{
+        font-size: 60%;
+    }
+    .cart-icon{
+        width: 20px;
+        height: 20px;
+    }
+    .header-logo1{
+        width: 20px;
+        height: 30px;
+    }
+    .low-background{
+        height: 150px;
+    }
+    .about-us{
+        font-size: 35px;
+    }
+
+
+
+    /*footer*/
+    .footer-inputs{
+        width: 80%;
+        height: 120px;
+    }
+    .footer-text{
+        width: 50%;
+    }
+    .footer-text-text{
+        font-size: 120%;
+        width: 100%;
+    }
+    .footer-input{
+        display: flex;
+        width: 50%;
+        align-items: center;
+    }
+    .email{
+        width: 60%;
+        height: 20px;
+        border-radius: 5px;
+        font-size: 8px;
+    }
+    .email::placeholder{
+        padding-left: 2px;
+    }
+    .Subscribe{
+        width: 40%;
+        height: 25px;
+        font-size: 8px;
+        border-radius: 5px;
+    }
+    .footer-text-text{
+        font-size: 14px;
+    }
+    .final-details{
+        margin-top: 0px;
+        font-size: 11px;
+    }
+
+
+}
+@media only screen and (max-width: 400px) {
+    .header{
+        height: 50px;
+    }
+    .nav-texts{
+        font-size: 50%;
+    }
+    .header-logo-text{
+        font-size: 70%;
+    }
+    .email{
+        width: 40px;
+        height: 10px;
+    }
+    .searchbaricon{
+        width: 5px;
+        height: 5px;
+        padding: 5px;
+    }
+    .container1-cart{
+        width: 50px;
+        height: 12px;
+    }
+    .container1-cart-text{
+        font-size: 50%;
+    }
+    .cart-icon{
+        width: 15px;
+        height: 15px;
+    }
+    .header-logo1{
+        width: 15px;
+        height: 25px;
+    }
+    .low-background{
+        height: 100px;
+    }
+    .about-us{
+        font-size: 30px;
+    }
+
+
+
+     /*footeri*/
+    
+     .footer-inputs{
+        width: 80%;
+        height: 120px;
+    }
+    .footer-text{
+        width: 50%;
+    }
+    .footer-text-text{
+        font-size: 120%;
+        width: 100%;
+    }
+    .footer-input{
+        display: flex;
+        width: 50%;
+        align-items: center;
+    }
+    .email{
+        width: 60%;
+        height: 20px;
+        border-radius: 5px;
+        font-size: 8px;
+    }
+    .email::placeholder{
+        padding-left: 2px;
+    }
+    .Subscribe{
+        width: 40%;
+        height: 25px;
+        font-size: 8px;
+        border-radius: 5px;
+    }
+    .footer-text-text{
+        font-size: 14px;
+    }
+    .final-details{
+        margin-top: 0px;
+        font-size: 7px;
+    }
+    
+}
+@media only screen and (max-width: 300px) {
+    .nav-texts{
+        font-size: 40%;
+    }
+    .header-logo-text{
+        font-size: 50%;
+    }
+    .email{
+        width: 20px;
+        height: 7px;
+    }
+    .searchbaricon{
+        width: 4px;
+        height: 4px;
+        padding: 4px;
+    }
+    .container1-cart{
+        width: 40px;
+        height: 8px;
+    }
+    .container1-cart-text{
+        font-size: 40%;
+    }
+    .cart-icon{
+        width: 10px;
+        height: 10px;
+    }
+    .header-logo1{
+        width: 10px;
+        height: 16px;
+    }
+
+
+
+
+
+     /*footeri*/
+     .footer-inputs{
+        width: 80%;
+        height: 120px;
+    }
+    .footer-text{
+        width: 50%;
+    }
+    .footer-text-text{
+        font-size: 120%;
+        width: 100%;
+    }
+    .footer-input{
+        display: flex;
+        width: 50%;
+        align-items: center;
+    }
+    .email{
+        width: 60%;
+        height: 20px;
+        border-radius: 5px;
+        font-size: 8px;
+    }
+    .email::placeholder{
+        padding-left: 2px;
+    }
+    .Subscribe{
+        width: 40%;
+        height: 25px;
+        font-size: 8px;
+        border-radius: 5px;
+    }
+    .footer-text-text{
+        font-size: 14px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media only screen and (max-width:1450px){
+        .cardo{ 
+         width: 420px;
+         height: 340px;  
+        }
+        .card-white-back{
+         height: 150px;
+        }
+        .cards-with-background{
+            height: 500px;
+        }
+     }
+
+
+
+@media only screen and (max-width:1200px){
+    .cardo{ 
+        width: 340px;
+        height: 280px;  
+       }
+       .card-white-back{
+        height: 150px;
+        margin-top: 200px;
+       }
+       .cards-with-background{
+           height: 380px;
+       }
+       .november{
+        width: 60px;
+       }
+}
+
+@media only screen and (max-width:1000px){
+  
+    .footer-inputs{
+        width: 80%;
+        height: 240px;
+    }
+    .footer-text-parent{
+        width: 80%;
+        height: 150px;
+        display: flex;
+    }
+    .footer-text{
+        width: 50%;
+    }
+    .footer-text-text{
+        font-size: 150%;
+        width: 100%;
+    }
+    .footer-input{
+        display: flex;
+        width: 50%;
+        align-items: center;
+    }
+    .email{
+        width: 60%;
+        height: 60px;
+    }
+    .Subscribe{
+        width: 40%;
+        height: 60px;
+    }
+    .cardsflex{
+        height: 1000px;
+    }
+    .brokoliimgs{
+        width: 100%;
+        height: 120px;
+    }
+    .container3-cards-card{
+        height: 300px;
+    }
+    .box-text{
+        font-size: 18px;
+    }
+    .cardo{ 
+        width: 280px;
+        height: 240px; 
+        border-radius: 10px; 
+       }
+       .card-white-back{
+        height: 100px;
+        margin-top: 150px;
+        border-radius: 10px;
+       }
+       .cards-with-background{
+           height: 330px;
+       }
+       .readmore{
+        font-size: 12px;
+       }
+       .benefits-text2{
+        font-size: 12px;
+       }
+       .benefits-text1{
+        font-size: 12px;
+       }
+       .profile-text{
+        font-size: 10px;
+       }
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+    .header{
+        height: 80px;
+    }
+    .nav-texts{
+        font-size: 80%;
+    }
+    .header-logo-text{
+        font-size: 120%;
+    }
+    .email{
+        width: 70px;
+        height: 20px;
+    }
+    .searchbaricon{
+        width: 12px;
+        height: 12px;
+        padding: 7px;
+    }
+    .container1-cart{
+        border-radius: 30px;
+        width: 80px;
+        height: 30px;
+    }
+    .container1-cart-text{
+        font-size: 80%;
+    }
+    .cart-icon{
+        width: 25px;
+        height: 25px;
+    }
+    .header-logo1{
+        width: 25px;
+        height: 50px;
+    }
+    .low-background{
+        height: 200px;
+    }
+    .about-us{
+        font-size: 40px;
+    }
+    .container3-card-texts{
+        font-size: 60%;
+    }
+    .cardo{ 
+        width: 210px;
+        height: 200px; 
+        border-radius: 10px; 
+       }
+       .card-white-back{
+        height: 100px;
+        margin-top: 120px;
+        border-radius: 10px;
+        width: 70%;
+       }
+       .cards-with-background{
+           height: 270px;
+       }
+       .readmore{
+        font-size: 10px;
+       }
+       .benefits-text2{
+        font-size: 10px;
+       }
+       .benefits-text1{
+        font-size: 10px;
+       }
+       .profile-text{
+        font-size: 10px;
+       }
+       .november{
+        width: 40px;        
+       }
+       .profile-little{
+        width: 15px;
+        height: 15px;
+        }
+
+
+
+
+
+    /*footeri*/
+    .footer-inputs{
+        width: 80%;
+        height: 180px;
+    }
+    .footer-text{
+        width: 50%;
+    }
+    .footer-text-text{
+        font-size: 120%;
+        width: 100%;
+    }
+    .footer-input{
+        display: flex;
+        width: 50%;
+        align-items: center;
+    }
+    .email{
+        width: 60%;
+        height: 30px;
+        border-radius: 5px;
+        font-size: 11px;
+    }
+    .Subscribe{
+        width: 40%;
+        height: 30px;
+        font-size: 13px;
+        border-radius: 5px;
+    }
+    .footer-footer{
+        height: 170px;
+    }
+    .email2{
+        font-size: 15px;
+    }
+    .utility{
+        font-size: 14px;
+    }
+    .imgs{
+        width: 10px;
+        height: 10px;
+    }
+    .final-details{
+        margin-top: 0px;
+        font-size: 15px;
+    }
+    .texteleft{
+        font-size: 7px;
+    }
+    .right{
+        font-size: 8px;
+    }
+    .simplyy2{
+        font-size: 8px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .header{
+        height: 60px;
+    }
+    .nav-texts{
+        font-size: 60%;
+    }
+    .header-logo-text{
+        font-size: 80%;
+    }
+    .email{
+        width: 45px;
+        height: 15px;
+    }
+    .searchbaricon{
+        width: 7px;
+        height: 7px;
+        padding: 7px;
+    }
+    .container1-cart{
+        border-radius: 30px;
+        width: 60px;
+        height: 20px;
+    }
+    .container1-cart-text{
+        font-size: 60%;
+    }
+    .cart-icon{
+        width: 20px;
+        height: 20px;
+    }
+    .header-logo1{
+        width: 20px;
+        height: 30px;
+    }
+    .low-background{
+        height: 150px;
+    }
+    .about-us{
+        font-size: 35px;
+    }
+    .container3-vegetable{
+        font-size: 10px;
+    }
+    .stars1{
+        width: 3px;
+        height: 3px;
+    }
+    .cardsflex{
+        height: 1000px;
+    }
+    .brokoliimgs{
+        width: 100%;
+        height: 80px;
+    }
+    .cardsflex{
+        height: 600px;
+    }
+    .container3-vegetable{
+        height: 20px;
+    }
+    .container3-cards-card{
+        height: 160px;
+        border-radius: 10px;
+    }
+    .email2{
+        font-size: 10px;
+        text-align: left;
+    }
+    .cardo{ 
+        width: 150px;
+        height: 110px; 
+        border-radius: 10px; 
+       }
+       .card-white-back{
+        height: 60px;
+        margin-top: 70px;
+        border-radius: 10px;
+        width: 80%;
+       }
+       .cards-with-background{
+           height: 150px;
+       }
+       .readmore{
+        font-size: 6px;
+       }
+       .benefits-text2{
+        font-size: 6px;
+       }
+       .benefits-text1{
+        font-size: 6px;
+       }
+       .profile-text{
+        font-size: 6px;
+       }
+       .november{
+        width: 30px;  
+        margin-top: 5px;      
+       }
+       .profile-little{
+        width: 10px;
+        height: 10px;
+        }
+
+
+    /*footer*/
+    .footer-inputs{
+        width: 80%;
+        height: 120px;
+    }
+    .footer-text{
+        width: 50%;
+    }
+    .footer-text-text{
+        font-size: 120%;
+        width: 100%;
+    }
+    .footer-input{
+        display: flex;
+        width: 50%;
+        align-items: center;
+    }
+    .email{
+        width: 60%;
+        height: 20px;
+        border-radius: 5px;
+        font-size: 8px;
+    }
+    .email::placeholder{
+        padding-left: 2px;
+    }
+    .Subscribe{
+        width: 40%;
+        height: 25px;
+        font-size: 8px;
+        border-radius: 5px;
+    }
+    .footer-text-text{
+        font-size: 14px;
+    }
+    .final-details{
+        margin-top: 0px;
+        font-size: 11px;
+    }
+    .fruits-pic{
+        width: 30px;
+    }
+
+
+}
+@media only screen and (max-width: 400px) {
+    .header{
+        height: 50px;
+    }
+    .nav-texts{
+        font-size: 50%;
+    }
+    .header-logo-text{
+        font-size: 70%;
+    }
+    .email{
+        width: 40px;
+        height: 10px;
+    }
+    .searchbaricon{
+        width: 5px;
+        height: 5px;
+        padding: 5px;
+    }
+    .container1-cart{
+        width: 50px;
+        height: 12px;
+    }
+    .container1-cart-text{
+        font-size: 50%;
+    }
+    .cart-icon{
+        width: 15px;
+        height: 15px;
+    }
+    .header-logo1{
+        width: 15px;
+        height: 25px;
+    }
+    .low-background{
+        height: 100px;
+    }
+    .about-us{
+        font-size: 30px;
+    }
+    .cardsflex{
+        height: 900px;
+    }
+    .brokoliimgs{
+        width: 100%;
+        height: 45px;
+    }
+    .cardsflex{
+        height: 600px;
+    }
+    .container3-vegetable{
+        font-size: 7px;
+    }
+    .container3-cards-card{
+        height: 140px;
+        border-radius: 10px;
+    }
+    .box-text{
+        font-size: 10px;
+    }
+    .cardo{ 
+        width: 130px;
+        height: 90px; 
+        border-radius: 10px; 
+       }
+       .card-white-back{
+        height: 50px;
+        margin-top: 60px;
+        border-radius: 10px;
+        width: 60%;
+       }
+       .cards-with-background{
+           height: 120px;
+       }
+       .readmore{
+        font-size: 5px;
+       }
+       .benefits-text2{
+        font-size: 4px;
+       }
+       .benefits-text1{
+        font-size: 4px;
+       }
+       .profile-text{
+        font-size: 5px;
+       }
+
+
+     /*footeri*/
+    
+     .footer-inputs{
+        width: 80%;
+        height: 120px;
+    }
+    .footer-text{
+        width: 50%;
+    }
+    .footer-text-text{
+        font-size: 120%;
+        width: 100%;
+    }
+    .footer-input{
+        display: flex;
+        width: 50%;
+        align-items: center;
+    }
+    .email{
+        width: 60%;
+        height: 20px;
+        border-radius: 5px;
+        font-size: 8px;
+    }
+    .email::placeholder{
+        padding-left: 2px;
+    }
+    .Subscribe{
+        width: 40%;
+        height: 25px;
+        font-size: 8px;
+        border-radius: 5px;
+    }
+    .footer-text-text{
+        font-size: 14px;
+    }
+    .final-details{
+        margin-top: 0px;
+        font-size: 7px;
+    }
+    
+}
+
+@media only screen and (max-width: 300px) {
+    .nav-texts{
+        font-size: 40%;
+    }
+    .header-logo-text{
+        font-size: 50%;
+    }
+    .email{
+        width: 20px;
+        height: 7px;
+    }
+    .searchbaricon{
+        width: 4px;
+        height: 4px;
+        padding: 4px;
+    }
+    .container1-cart{
+        width: 40px;
+        height: 8px;
+    }
+    .container1-cart-text{
+        font-size: 40%;
+    }
+    .cart-icon{
+        width: 10px;
+        height: 10px;
+    }
+    .header-logo1{
+        width: 10px;
+        height: 16px;
+    }
+    .container3-cards-card{
+        height: 120px;
+        border-radius: 10px;
+    }
+    
+
+
+
+
+
+
+     /*footeri*/
+     .footer-inputs{
+        width: 80%;
+        height: 120px;
+    }
+    .footer-text{
+        width: 50%;
+    }
+    .footer-text-text{
+        font-size: 120%;
+        width: 100%;
+    }
+    .footer-input{
+        display: flex;
+        width: 50%;
+        align-items: center;
+    }
+    .email{
+        width: 60%;
+        height: 20px;
+        border-radius: 5px;
+        font-size: 8px;
+    }
+    .email::placeholder{
+        padding-left: 2px;
+    }
+    .Subscribe{
+        width: 40%;
+        height: 25px;
+        font-size: 8px;
+        border-radius: 5px;
+    }
+    .footer-text-text{
+        font-size: 14px;
+    }
+    
+}

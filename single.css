@@ -1,0 +1,1848 @@
+html,body{    
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+} 
+::-webkit-scrollbar{
+    background-color: white;
+}
+::-webkit-scrollbar-button{
+    height: 0px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: black;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: none;
+    border-radius: 10px;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.header-logo{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.header-nav{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly;       
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #274C5B;
+}
+.nav-texts{
+    font-size: 100%;
+    text-decoration: none;
+    color: black;
+}
+.header-input{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.header-logo-text{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 160%;
+    color: #274C5B;
+}
+.email{
+    width: 100px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    border: none; 
+    border: 1px solid grey;
+}
+.email::placeholder{
+    font-style: italic;
+    font-weight: 600;
+    opacity: 0.7;
+    padding: 0 10px;
+}
+.searchbaricon{
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    padding: 13px;
+    background-color: #7EB693;
+    transition: 0.3s all ease-in-out;
+}
+.searchbaricon:hover{
+    background-color: #274C5B;
+    scale: 1.1;
+}
+.input-display{
+    display: flex;
+    align-items: center;
+}
+.container1-cart{
+    border:1px solid grey;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    width: 120px;
+    height: 50px;
+}
+.container1-cart-text{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 108%;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+}
+.cart-icon{
+    width: 50px;
+    height: 50px;
+}
+.low-background{
+    width: 100%;
+    height: 250px;
+    background-size: contain;
+    background: url(pics3/marwyvebi.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-us{
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+    color: #274C5B;
+}
+
+
+
+
+
+
+
+
+
+
+.healt-pistacois-parent{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 800px;
+    justify-content: space-evenly;
+}
+.div70{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+.pistacois-background{
+    width: 48%;
+    border-radius: 20px;
+}
+.txili{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.healt-pistacois{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.healt-pistacois-text{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 47px;
+    color: #274C5B;
+}
+.simplyy{
+    margin-top: 50px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #525C60;
+}
+.quantitiy{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #274C5B;
+    align-items: center;
+}
+.one{
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 20px 50px;
+}
+.addtocart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 213px;
+    height: 80px;
+    background: #274C5B;
+    font-family:sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    transition: 0.3s all ease-in-out;
+    border: 1px solid #274C5B;
+    cursor: pointer;
+}
+.addtocart:hover{
+    background-color: white;
+    color: #274C5B;
+    border: 1px solid #274C5B;
+}
+.description:hover{
+    background-color: white;
+    color: #274C5B;
+    border: 1px solid #274C5B;
+}
+
+.buttons-product{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .buttons{
+     width: 100%;
+     display: flex;
+     justify-content: center;
+ }
+ .buttonsspace{
+     width: 5%;
+ }
+ .symplyy2{
+    width: 50%;
+    text-align: center;
+ }
+ .description{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     width: 363px;
+     height: 80px;
+     background: #274C5B;
+     border-radius: 16px;   
+     font-family: sans-serif;
+     font-style: normal;
+     font-weight: 700;
+     font-size: 25px;
+     line-height: 34px;
+     text-align: center;
+     color: #FFFFFF;
+     border: 1px solid #274C5B;
+     transition: 0.3s all ease-in-out;
+     cursor: pointer;
+ }
+ .additional{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     width: 363px;
+     height: 80px;
+     background: #ffffff;
+     border-radius: 16px;   
+     font-family: sans-serif;
+     font-style: normal;
+     font-weight: 700;
+     font-size: 25px;
+     line-height: 34px;
+     text-align: center;
+     color: #274C5B;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cardsflex{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.relatedproducts{
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 59px;
+    text-align: center;
+    color: #274C5B;
+}
+.container3-vegetable{
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 80px;
+    height: 31px;
+    background: #274C5B;
+    border-radius: 8px;     
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    transition: 0.3s all ease-in-out;
+}
+.container3-vegetable-parent{
+    width: 100%;
+    display: flex;
+}
+.container3-cards-card{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    border-radius: 20px;
+    transition: 0.3s all ease-in-out;
+    box-shadow: 0px 2px 5px black;
+    width: 23%;
+    height: 420px;
+}
+.remove-from-cart{
+    cursor: pointer;
+}
+.container3-cards-card:hover{
+    transform: translatey(10px);
+    cursor: pointer;
+    box-shadow: 0px 0px 2px black;
+}
+.container3-cards-card:hover .container3-vegetable{
+    width: 50%;
+    letter-spacing: 2px;
+}
+.container3-cards-card:hover .container3-card-texts{
+    text-shadow: 0px 0px 1px black;
+}
+.container3-card-texts{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 120%;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.373);
+    width: 80%;
+    transition: 0.3s all ease-in-out;
+    color: #274C5B;
+}
+.container3-card-texts2{
+    display: flex;
+    width: 80%;
+}
+.gadaxasuli-dolari{
+    width: 40%;
+    height: 20px;
+    display: flex;
+    align-items: flex-start;
+}
+.container3-stars{
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 20px;
+    margin-left: 10px;
+}
+.stars1{
+    width: 12px;
+    height: 12px;
+}
+.imgdiv{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cards-flex1{
+    width: 80%;
+    display: flex; 
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.brokoliimgs{
+    width: 100%;
+    height: 220px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-inputs{
+    width: 80%;
+    height: 250px;
+    background: url(pics3/footeback.jpg);
+    border-radius: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.footer-text-parent{
+    width: 80%;
+    height: 150px;
+    display: flex;
+}
+.footer-text{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.footer-text-text{
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 180%;
+    color: #FFFFFF;
+    width: 50%;
+}
+.footer-input{
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+.email{
+    width: 60%;
+    height: 80px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    border: none;
+}
+.email::placeholder{
+    font-style: italic;
+    font-weight: 600;
+    opacity: 0.7;
+    padding: 0 10px;
+}
+.Subscribe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 80px;
+    background: #274C5B;
+    border-radius: 16px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 100%;
+    color: #FFFFFF;
+    transition: 0.3s all ease-in-out;
+    border: none;
+    margin-left: 5px;
+}
+.Subscribe:hover{
+    background-color: #518296;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.footer-footer{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer1{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+    border-right: 1px solid grey;
+}
+
+.footer2{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer3{
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+    border-left: 1px solid grey;
+    text-align: left;
+    justify-content: flex-start;
+}
+.utility{
+    width: 100%;
+    height: 10%;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #274C5B;
+    text-align: left;
+}
+.utility2{
+    text-align: right;
+}
+.right{
+    text-align: right;
+}
+.texteleft{
+    text-align: left;
+}
+.footer-logo{       
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: #274C5B;
+    display: flex;
+    align-items: center;
+}
+.footer-imgs{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.organic-logo{
+    width: 50px;
+    height: 50px;
+}
+.email2{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: left;
+    color: #525C60;
+    margin-top: 30px;
+}
+.contact{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.final-details{
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.organic-logo1{
+    width: 50px;
+    height: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:1200px){
+    .footer{
+        height: 700px;
+    }
+    .footer-footer{
+        height: 270px;
+    }
+    .utility{
+        font-size: 15px;
+    }
+    .email2{
+        font-size: 20px;
+        text-align: center;
+    }
+    .organic-logo1{
+        width: 30px;
+        height: 50px;
+    }
+    .relatedproducts{
+        font-size: 40px;
+    }
+    }
+    
+    @media only screen and (max-width:1000px){
+      
+        .footer-inputs{
+            width: 80%;
+            height: 240px;
+        }
+        .footer-text-parent{
+            width: 80%;
+            height: 150px;
+            display: flex;
+        }
+        .footer-text{
+            width: 50%;
+        }
+        .footer-text-text{
+            font-size: 150%;
+            width: 100%;
+        }
+        .footer-input{
+            display: flex;
+            width: 50%;
+            align-items: center;
+        }
+        .email{
+            width: 60%;
+            height: 60px;
+        }
+        .Subscribe{
+            width: 40%;
+            height: 60px;
+        }
+        .footer{
+            height: 500px;
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @media only screen and (max-width: 800px) {
+    
+        /*footeri*/
+        .footer-inputs{
+            width: 80%;
+            height: 180px;
+        }
+        .footer-text{
+            width: 50%;
+        }
+        .footer-text-text{
+            font-size: 120%;
+            width: 100%;
+        }
+        .footer-input{
+            display: flex;
+            width: 50%;
+            align-items: center;
+        }
+        .email{
+            width: 60%;
+            height: 30px;
+            border-radius: 5px;
+            font-size: 11px;
+        }
+        .Subscribe{
+            width: 40%;
+            height: 30px;
+            font-size: 13px;
+            border-radius: 5px;
+        }
+        .footer-footer{
+            height: 170px;
+        }
+        .email2{
+            font-size: 20px;
+        }
+        .utility{
+            font-size: 20px;
+        }
+        .imgs{
+            width: 20px;
+            height: 20px;
+        }
+        .final-details{
+            margin-top: 0px;
+            font-size: 15px;
+        }
+        .relatedproducts{
+            font-size: 30px;
+        }
+        .cards-flex1{
+            margin-top: 20px;
+        }
+    }
+    
+    @media only screen and (max-width: 600px) {
+        .header{
+            height: 60px;
+        }
+        .nav-texts{
+            font-size: 60%;
+        }
+        .header-logo-text{
+            font-size: 80%;
+        }
+        .email{
+            width: 45px;
+            height: 15px;
+        }
+        .searchbaricon{
+            width: 7px;
+            height: 7px;
+            padding: 7px;
+        }
+        .container1-cart{
+            border-radius: 30px;
+            width: 60px;
+            height: 20px;
+        }
+        .container1-cart-text{
+            font-size: 60%;
+        }
+        .cart-icon{
+            width: 20px;
+            height: 20px;
+        }
+        .header-logo1{
+            width: 20px;
+            height: 30px;
+        }
+        .low-background{
+            height: 150px;
+        }
+        .about-us{
+            font-size: 35px;
+        }
+        .relatedproducts{
+            font-size: 25px;
+        }
+        .cards-flex1{
+            margin-top: 10px;
+        }
+    
+    
+    
+        /*footer*/
+        .footer-inputs{
+            width: 80%;
+            height: 120px;
+        }
+        .footer-text{
+            width: 50%;
+        }
+        .footer-text-text{
+            font-size: 120%;
+            width: 100%;
+        }
+        .footer-input{
+            display: flex;
+            width: 50%;
+            align-items: center;
+        }
+        .email{
+            width: 60%;
+            height: 20px;
+            border-radius: 5px;
+            font-size: 8px;
+        }
+        .email::placeholder{
+            padding-left: 2px;
+        }
+        .Subscribe{
+            width: 40%;
+            height: 25px;
+            font-size: 8px;
+            border-radius: 5px;
+        }
+        .footer-text-text{
+            font-size: 14px;
+        }
+        .final-details{
+            margin-top: 0px;
+            font-size: 11px;
+        }
+    
+    
+    }
+    @media only screen and (max-width: 400px) {
+        .header{
+            height: 50px;
+        }
+        .nav-texts{
+            font-size: 50%;
+        }
+        .header-logo-text{
+            font-size: 70%;
+        }
+        .email{
+            width: 40px;
+            height: 10px;
+        }
+        .searchbaricon{
+            width: 5px;
+            height: 5px;
+            padding: 5px;
+        }
+        .container1-cart{
+            width: 50px;
+            height: 12px;
+        }
+        .container1-cart-text{
+            font-size: 50%;
+        }
+        .cart-icon{
+            width: 15px;
+            height: 15px;
+        }
+        .header-logo1{
+            width: 15px;
+            height: 25px;
+        }
+        .low-background{
+            height: 100px;
+        }
+        .about-us{
+            font-size: 30px;
+        }
+    
+    
+    
+         /*footeri*/
+        
+         .footer-inputs{
+            width: 80%;
+            height: 120px;
+        }
+        .footer-text{
+            width: 50%;
+        }
+        .footer-text-text{
+            font-size: 120%;
+            width: 100%;
+        }
+        .footer-input{
+            display: flex;
+            width: 50%;
+            align-items: center;
+        }
+        .email{
+            width: 60%;
+            height: 20px;
+            border-radius: 5px;
+            font-size: 8px;
+        }
+        .email::placeholder{
+            padding-left: 2px;
+        }
+        .Subscribe{
+            width: 40%;
+            height: 25px;
+            font-size: 8px;
+            border-radius: 5px;
+        }
+        .footer-text-text{
+            font-size: 14px;
+        }
+        .final-details{
+            margin-top: 0px;
+            font-size: 7px;
+        }
+        
+    }
+    @media only screen and (max-width: 300px) {
+        .nav-texts{
+            font-size: 40%;
+        }
+        .header-logo-text{
+            font-size: 50%;
+        }
+        .email{
+            width: 20px;
+            height: 7px;
+        }
+        .searchbaricon{
+            width: 4px;
+            height: 4px;
+            padding: 4px;
+        }
+        .container1-cart{
+            width: 40px;
+            height: 8px;
+        }
+        .container1-cart-text{
+            font-size: 40%;
+        }
+        .cart-icon{
+            width: 10px;
+            height: 10px;
+        }
+        .header-logo1{
+            width: 10px;
+            height: 16px;
+        }
+        .relatedproducts{
+            font-size: 20px;
+        }
+    
+    
+    
+    
+    
+         /*footeri*/
+         .footer-inputs{
+            width: 80%;
+            height: 120px;
+        }
+        .footer-text{
+            width: 50%;
+        }
+        .footer-text-text{
+            font-size: 120%;
+            width: 100%;
+        }
+        .footer-input{
+            display: flex;
+            width: 50%;
+            align-items: center;
+        }
+        .email{
+            width: 60%;
+            height: 20px;
+            border-radius: 5px;
+            font-size: 8px;
+        }
+        .email::placeholder{
+            padding-left: 2px;
+        }
+        .Subscribe{
+            width: 40%;
+            height: 25px;
+            font-size: 8px;
+            border-radius: 5px;
+        }
+        .footer-text-text{
+            font-size: 14px;
+        }
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @media only screen and (min-width:1800px){
+        .container3-card-texts{
+            font-size: 100%;
+        }
+        .stars1{
+            width: 20px;
+            height: 20px;
+        }
+        .brokoliimgs{
+            width: 100%;
+            height: 240px;
+        }
+        .container3-vegetable{
+            font-size: 14px;
+        }
+        .container3-vegetable{
+            width: 100px;
+        }
+        .container3-cards-card{
+            height: 450px;
+        }
+    }
+    
+    
+    
+    
+    @media only screen and (max-width:1200px){
+    .organic-logo1{
+        width: 30px;
+        height: 50px;
+    }
+    .container3-card-texts{
+        font-size: 70%;
+    }
+    .stars1{
+        width: 10px;
+        height: 10px;
+    }
+    .brokoliimgs{
+        width: 100%;
+        height: 140px;
+    }
+    .container3-vegetable{
+        font-size: 14px;
+        width: 75px;
+    }
+    .container3-cards-card{
+        height: 350px;
+    }
+    .pistacois-background{
+        width: 48%;
+        height: 350px;
+    }
+    .txili{
+        width: 100%;
+        display: flex;
+    }
+    .healt-pistacois-text{
+        font-size: 30px;
+    }
+    .simplyy{
+        margin-top: 20px;
+        font-size: 16px;
+    }
+    .one{
+        padding: 15px 30px;
+    }
+    .addtocart{
+        width: 190px;
+        height: 60px;
+        font-size: 20px;
+    }
+    .healt-pistacois-parent{
+        height: 700px;
+    }
+    .description{
+        width: 320px;
+        height: 70px;
+        font-size: 20px;
+    }
+    .additional{
+        width: 320px;
+        height: 70px;
+        font-size: 20px;
+    }
+
+}
+    
+    @media only screen and (max-width:1000px){
+      
+        .footer-inputs{
+            width: 80%;
+            height: 240px;
+        }
+        .footer-text-parent{
+            width: 80%;
+            height: 150px;
+            display: flex;
+        }
+        .footer-text{
+            width: 50%;
+        }
+        .footer-text-text{
+            font-size: 150%;
+            width: 100%;
+        }
+        .footer-input{
+            display: flex;
+            width: 50%;
+            align-items: center;
+        }
+        .email{
+            width: 60%;
+            height: 60px;
+        }
+        .Subscribe{
+            width: 40%;
+            height: 60px;
+        }
+        .brokoliimgs{
+            width: 100%;
+            height: 120px;
+        }
+        .container3-cards-card{
+            height: 300px;
+        }
+        .pistacois-background{
+            width: 48%;
+            height: 350px;
+        }
+        .txili{
+            width: 100%;
+            display: flex;
+        }
+        .healt-pistacois-text{
+            font-size: 30px;
+        }
+        .simplyy{
+            margin-top: 10px;
+            font-size: 13px;
+        }
+        .one{
+            padding: 12px 30px;
+        }
+        .addtocart{
+            width: 140px;
+            height: 50px;
+            font-size: 20px;
+        }
+        .quantitiy{
+            margin-top: 5px;
+        }
+        .healt-pistacois-parent{
+            height: 600px;
+        }
+        .description{
+            width: 250px;
+            height: 70px;
+            font-size: 20px;
+        }
+        .additional{
+            width: 250px;
+            height: 70px;
+            font-size: 20px;
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @media only screen and (max-width: 800px) {
+        .header{
+            height: 80px;
+        }
+        .nav-texts{
+            font-size: 80%;
+        }
+        .header-logo-text{
+            font-size: 120%;
+        }
+        .email{
+            width: 70px;
+            height: 20px;
+        }
+        .searchbaricon{
+            width: 12px;
+            height: 12px;
+            padding: 7px;
+        }
+        .container1-cart{
+            border-radius: 30px;
+            width: 80px;
+            height: 30px;
+        }
+        .container1-cart-text{
+            font-size: 80%;
+        }
+        .cart-icon{
+            width: 25px;
+            height: 25px;
+        }
+        .header-logo1{
+            width: 25px;
+            height: 50px;
+        }
+        .low-background{
+            height: 200px;
+        }
+        .about-us{
+            font-size: 40px;
+        }
+        .container3-card-texts{
+            font-size: 60%;
+        }
+        .brokoliimgs{
+            height: 100px;
+        }
+        .stars1{
+            width: 3px;
+            height: 3px;
+        }
+        .brokoliimgs{
+            width: 100%;
+            height: 90px;
+        }
+        .container3-vegetable{
+            font-size: 11px;
+            width: 65px;
+            height: 25px;
+            border-radius: 5px;
+        }
+        .container3-cards-card{
+            height: 250px;
+        }
+        .pistacois-background{
+            width: 48%;
+            height: 300px;
+        }
+        .healt-pistacois-text{
+            font-size: 20px;
+        }
+        .simplyy{
+            margin-top: 10px;
+            font-size: 10px;
+        }
+        .one{
+            padding: 10px 20px;
+        }
+        .addtocart{
+            width: 100px;
+            height: 40px;
+            font-size: 15px;
+        }
+        .quantitiy{
+            margin-top: 5px;
+            font-size: 15px;
+        }
+        .healt-pistacois-parent{
+            height: 500px;
+        }
+        .description{
+            width: 200px;
+            height: 60px;
+            font-size: 18px;
+        }
+        .additional{
+            width: 200px;
+            height: 60px;
+            font-size: 18px;
+        }
+    
+    
+    
+    
+    
+        /*footeri*/
+        .footer-inputs{
+            width: 80%;
+            height: 180px;
+        }
+        .footer-text{
+            width: 50%;
+        }
+        .footer-text-text{
+            font-size: 120%;
+            width: 100%;
+        }
+        .footer-input{
+            display: flex;
+            width: 50%;
+            align-items: center;
+        }
+        .email{
+            width: 60%;
+            height: 30px;
+            border-radius: 5px;
+            font-size: 11px;
+        }
+        .Subscribe{
+            width: 40%;
+            height: 30px;
+            font-size: 13px;
+            border-radius: 5px;
+        }
+        .footer-footer{
+            height: 170px;
+        }
+        .email2{
+            font-size: 15px;
+        }
+        .utility{
+            font-size: 14px;
+        }
+        .imgs{
+            width: 10px;
+            height: 10px;
+        }
+        .final-details{
+            margin-top: 0px;
+            font-size: 15px;
+        }
+        .texteleft{
+            font-size: 7px;
+        }
+        .right{
+            font-size: 8px;
+        }
+        .simplyy2{
+            font-size: 8px;
+            text-align: center;
+        }
+    }
+    
+    @media only screen and (max-width: 600px) {
+        .header{
+            height: 60px;
+        }
+        .nav-texts{
+            font-size: 60%;
+        }
+        .header-logo-text{
+            font-size: 80%;
+        }
+        .email{
+            width: 45px;
+            height: 15px;
+        }
+        .searchbaricon{
+            width: 7px;
+            height: 7px;
+            padding: 7px;
+        }
+        .container1-cart{
+            border-radius: 30px;
+            width: 60px;
+            height: 20px;
+        }
+        .container1-cart-text{
+            font-size: 60%;
+        }
+        .cart-icon{
+            width: 20px;
+            height: 20px;
+        }
+        .header-logo1{
+            width: 20px;
+            height: 30px;
+        }
+        .low-background{
+            height: 150px;
+        }
+        .about-us{
+            font-size: 35px;
+        }
+        .container3-vegetable{
+            font-size: 10px;
+        }
+        .stars1{
+            width: 3px;
+            height: 3px;
+        }
+        .brokoliimgs{
+            width: 100%;
+            height: 80px;
+        }
+        .container3-vegetable{
+            width: 45px;
+            height: 15px;
+            border-radius: 3px;
+        }
+        .container3-cards-card{
+            height: 160px;
+            border-radius: 10px;
+        }
+        .email2{
+            font-size: 10px;
+            text-align: left;
+        }
+        .pistacois-background{
+            width: 48%;
+            height: 200px;
+        }
+        .healt-pistacois-text{
+            font-size: 15px;
+        }
+        .simplyy{
+            font-size: 7px;
+        }
+        .stars2{
+            width: 8px;
+            height: 8px;
+        }
+        .one{
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        .addtocart{
+            width: 60px;
+            height: 30px;
+            font-size: 10px;
+            border-radius: 5px;
+        }
+        .quantitiy{
+            margin-top: 5px;
+            font-size: 15px;
+        }
+        .healt-pistacois-parent{
+            height: 300px;
+        }
+        .description{
+            width: 100px;
+            height: 40px;
+            font-size: 10px;
+            border-radius: 10px;
+        }
+        .additional{
+            width: 100px;
+            height: 40px;
+            font-size: 10px;
+            border-radius: 10px;
+        }
+
+
+
+
+    
+    
+        /*footer*/
+        .footer-inputs{
+            width: 80%;
+            height: 120px;
+        }
+        .footer-text{
+            width: 50%;
+        }
+        .footer-text-text{
+            font-size: 120%;
+            width: 100%;
+        }
+        .footer-input{
+            display: flex;
+            width: 50%;
+            align-items: center;
+        }
+        .email{
+            width: 60%;
+            height: 20px;
+            border-radius: 5px;
+            font-size: 8px;
+        }
+        .email::placeholder{
+            padding-left: 2px;
+        }
+        .Subscribe{
+            width: 40%;
+            height: 25px;
+            font-size: 8px;
+            border-radius: 5px;
+        }
+        .footer-text-text{
+            font-size: 14px;
+        }
+        .final-details{
+            margin-top: 0px;
+            font-size: 11px;
+        }
+    
+    
+    }
+    @media only screen and (max-width: 400px) {
+        .header{
+            height: 50px;
+        }
+        .nav-texts{
+            font-size: 50%;
+        }
+        .header-logo-text{
+            font-size: 70%;
+        }
+        .email{
+            width: 40px;
+            height: 10px;
+        }
+        .searchbaricon{
+            width: 5px;
+            height: 5px;
+            padding: 5px;
+        }
+        .container1-cart{
+            width: 50px;
+            height: 12px;
+        }
+        .container1-cart-text{
+            font-size: 50%;
+        }
+        .cart-icon{
+            width: 15px;
+            height: 15px;
+        }
+        .header-logo1{
+            width: 15px;
+            height: 25px;
+        }
+        .low-background{
+            height: 100px;
+        }
+        .about-us{
+            font-size: 30px;
+        }
+        .brokoliimgs{
+            width: 100%;
+            height: 45px;
+        }
+        .container3-vegetable{
+            font-size: 7px;
+        }
+        .container3-cards-card{
+            height: 140px;
+            border-radius: 10px;
+        }
+        .healt-pistacois-text{
+            font-size: 15px;
+        }
+        .simplyy{
+            font-size: 7px;
+        }
+        .stars2{
+            width: 8px;
+            height: 8px;
+        }
+        .one{
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        .addtocart{
+            width: 40px;
+            height: 25px;
+            font-size: 7px;
+            border-radius: 5px;
+        }
+        .quantitiy{
+            font-size: 10px;
+        }
+    
+    
+    
+         /*footeri*/
+        
+         .footer-inputs{
+            width: 80%;
+            height: 120px;
+        }
+        .footer-text{
+            width: 50%;
+        }
+        .footer-text-text{
+            font-size: 120%;
+            width: 100%;
+        }
+        .footer-input{
+            display: flex;
+            width: 50%;
+            align-items: center;
+        }
+        .email{
+            width: 60%;
+            height: 20px;
+            border-radius: 5px;
+            font-size: 8px;
+        }
+        .email::placeholder{
+            padding-left: 2px;
+        }
+        .Subscribe{
+            width: 40%;
+            height: 25px;
+            font-size: 8px;
+            border-radius: 5px;
+        }
+        .footer-text-text{
+            font-size: 14px;
+        }
+        .final-details{
+            margin-top: 0px;
+            font-size: 7px;
+        }
+        
+    }
+    @media only screen and (max-width: 300px) {
+        .nav-texts{
+            font-size: 40%;
+        }
+        .header-logo-text{
+            font-size: 50%;
+        }
+        .email{
+            width: 20px;
+            height: 7px;
+        }
+        .searchbaricon{
+            width: 4px;
+            height: 4px;
+            padding: 4px;
+        }
+        .container1-cart{
+            width: 40px;
+            height: 8px;
+        }
+        .container1-cart-text{
+            font-size: 40%;
+        }
+        .cart-icon{
+            width: 10px;
+            height: 10px;
+        }
+        .header-logo1{
+            width: 10px;
+            height: 16px;
+        }
+        .container3-cards-card{
+            height: 120px;
+            border-radius: 10px;
+        }
+    
+    
+    
+    
+    
+         /*footeri*/
+         .footer-inputs{
+            width: 80%;
+            height: 120px;
+        }
+        .footer-text{
+            width: 50%;
+        }
+        .footer-text-text{
+            font-size: 120%;
+            width: 100%;
+        }
+        .footer-input{
+            display: flex;
+            width: 50%;
+            align-items: center;
+        }
+        .email{
+            width: 60%;
+            height: 20px;
+            border-radius: 5px;
+            font-size: 8px;
+        }
+        .email::placeholder{
+            padding-left: 2px;
+        }
+        .Subscribe{
+            width: 40%;
+            height: 25px;
+            font-size: 8px;
+            border-radius: 5px;
+        }
+        .footer-text-text{
+            font-size: 14px;
+        }
+        
+    }

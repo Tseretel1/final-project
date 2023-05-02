@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="single.css">
+    <title>shop Single</title>
+</head>
+<body>
+    <style>
+        body {
+          overflow-x: hidden;
+        }
+    
+        .fade-in {
+          opacity: 0;
+          animation: fadeInAnimation ease-in 0.4s forwards;
+        }
+    
+        .fade-out {
+          opacity: 1;
+          animation: fadeOutAnimation ease-in 0.1s forwards;
+        }
+    
+        @keyframes fadeInAnimation {
+          0% {
+            opacity: 0;
+          }
+          100% {
+            opacity: 1;
+          }
+        }
+    
+        @keyframes fadeOutAnimation {
+          0% {
+            opacity: 1;
+          }
+          100% {
+            opacity: 0;
+          }
+        }
+      </style>
+    <div class="header">
+        <div class="header-logo">
+            <img class="header-logo1" src="pics3/container1logo.png" width="35px" height="60px" alt="">
+            <h2 class="header-logo-text">Organick</h2>
+        </div>
+        <div class="header-nav">
+            <a class="nav-texts" href="index.html"><div class="nav-text">Home</div></a> 
+            <a class="nav-texts" href="about.html"><div class="nav-text">About</div></a> 
+            <a class="nav-texts" href="service.html"> <div class="nav-text">Pages</div></a>
+            <a class="nav-texts" href="shop.html"> <div class="nav-text">Shop</div></a> 
+            <a class="nav-texts" href="contact.html"><div class="nav-text">projects</div></a> 
+            <a class="nav-texts" href="blog.html"><div class="nav-text">News</div></a> 
+        </div>
+        <div class="header-input">
+            <div class="input-display">
+               <input class="email" type="email">
+               <img class="searchbaricon" src="pics3/searchbaricon.png"  alt="">
+            </div>
+
+            <div class="container1-cart">
+                <img class="cart-icon" src="pics3/container1Cart Icon.png" width="50px" alt="">
+                <div class="container1-cart-text">Cart(<p><div class="item-count" >0</div></p>)</div>
+            </div> 
+        </div>
+    </div>
+
+
+    <div class="low-background">
+        <h1 class="about-us">Shop Signle</h1>
+    </div>
+
+    <div class="healt-pistacois-parent">
+        <div class="div70">
+            <div class="pistacois-background"><div class="container3-vegetable millets">Millets</div><img class="txili" src="pics3/txilitransparent.png" alt=""></div>
+            <div class="healt-pistacois">
+                <div class="healt-pistacois-text">Healt Pistacoias</div>  
+                <div class="pistacoias-stars">
+                    <img src="pics3/stars.png" class="stars2" alt="">
+                    <img src="pics3/stars.png" class="stars2" alt="">
+                    <img src="pics3/stars.png" class="stars2" alt="">
+                    <img src="pics3/stars.png" class="stars2" alt="">
+                    <img src="pics3/stars.png" class="stars2" alt="">
+                </div>   
+                <div class="gadaxasuli-dolari"><img src="pics3/Pricing (1).png" width="140%" alt=""> </div>
+
+                <div class="simplyy">Simply dummy text of the printing and typesetting industry. Lorem had ceased
+                     to been the industry's standard dummy text ever since the 1500s, when an 
+                     unknown printer took a galley.
+                </div>
+                <div class="quantitiy">quantitiy
+                    <div class="item-count2" id="itemcount">0</div>
+                    <div class="remove-from-cart" onclick="tsero4()">Remove</div>
+                    <div class="addtocart" id="addtocart" onclick="tsero()">Add To cart</div>
+                </div>
+                     
+            </div>
+        </div>
+
+
+        <div class="buttons-product">
+            <div class="buttons">
+                <div class="description">Product Description</div>
+
+                <div class="buttonsspace"></div>
+
+                <div class="additional">Additional Info</div>
+            </div>
+            <div class="simplyy symplyy2">Simply dummy text of the printing and typesetting industry. Lorem had ceased
+                to been the industry's standard dummy text ever since the 1500s, when an 
+                unknown printer took a galley.</div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="cardsflex">
+        <div class="relatedproducts">Related Prodacts</div>
+        <div class="cards-flex1">  
+            <div class="container3-cards-card">
+                <div class="container3-vegetable-parent">
+                    <div class="container3-vegetable-space"></div>
+                   <h1 class="container3-vegetable">Vegetable</h1>
+                </div>
+                <img src="pics3/brokoli.png" class="brokoliimgs"alt="">
+                <h1 class="container3-card-texts">Calabrese brokoli</h1>
+                <div class="container3-card-texts2">
+                    <div class="gadaxasuli-dolari"><img src="pics3/Pricing (1).png" width="140%" alt="">
+                    </div>
+                    <div class="container3-stars">
+                        <img src="pics3/stars.png" class="stars1" alt="">
+                        <img src="pics3/stars.png" class="stars1" alt="">
+                        <img src="pics3/stars.png" class="stars1" alt="">
+                        <img src="pics3/stars.png" class="stars1" alt="">
+                        <img src="pics3/stars.png" class="stars1" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="container3-cards-card">
+                <div class="container3-vegetable-parent">
+                    <div class="container3-vegetable-space"></div>
+                   <h1 class="container3-vegetable">Fresh</h1>
+                </div>
+                <img src="pics3/banana.png" class="brokoliimgs" alt="">
+                <h1 class="container3-card-texts">Fresh Banana Fruites</h1>
+                <div class="container3-card-texts2">
+                    <div class="gadaxasuli-dolari"><img src="pics3/Pricing (1).png" width="140%" alt="">
+                    </div>
+                    <div class="container3-stars">
+                        <img src="pics3/stars.png" class="stars1" alt="">
+                        <img src="pics3/stars.png" class="stars1" alt="">
+                        <img src="pics3/stars.png" class="stars1" alt="">
+                        <img src="pics3/stars.png" class="stars1" alt="">
+                        <img src="pics3/stars.png" class="stars1" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="container3-cards-card">
+                <div class="container3-vegetable-parent">
+                    <div class="container3-vegetable-space"></div>
+                   <h1 class="container3-vegetable">MIllets</h1>
+                </div>
+                <img src="pics3/txili.png" class="brokoliimgs" alt="">
+                <h1 class="container3-card-texts">White Nuts</h1>
+                <div class="container3-card-texts2">
+                    <div class="gadaxasuli-dolari"><img src="pics3/Pricing (1).png" width="140%" alt="">
+                    </div>
+                    <div class="container3-stars">
+                        <img src="pics3/stars.png" class="stars1" alt="">
+                        <img src="pics3/stars.png" class="stars1" alt="">
+                        <img src="pics3/stars.png" class="stars1" alt="">
+                        <img src="pics3/stars.png" class="stars1" alt="">
+                        <img src="pics3/stars.png" class="stars1" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="container3-cards-card">
+                <div class="container3-vegetable-parent">
+                    <div class="container3-vegetable-space"></div>
+                   <h1 class="container3-vegetable">Vegetable</h1>
+                </div>
+                <img src="pics3/kenkra.png"class="brokoliimgs" alt="">
+                <h1 class="container3-card-texts">Vegan Red Tomato</h1>
+                <div class="container3-card-texts2">
+                    <div class="gadaxasuli-dolari"><img src="pics3/Pricing (1).png" width="140%" alt="">
+                    </div>
+                    <div class="container3-stars">
+                        <img src="pics3/stars.png" class="stars1" alt="">
+                        <img src="pics3/stars.png" class="stars1" alt="">
+                        <img src="pics3/stars.png" class="stars1" alt="">
+                        <img src="pics3/stars.png" class="stars1" alt="">
+                        <img src="pics3/stars.png" class="stars1" alt="">
+                    </div>
+                </div>
+            </div>
+         </div>       
+    
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+    <div class="footer">
+        <div class="footer-inputs">
+            <div class="footer-text-parent">
+    
+                <div class="footer-text">
+                   <h1 class="footer-text-text">Subscribe to our Newsletter</h1>
+                </div>
+                <div class="footer-input">
+                    <input class="email" type="email" placeholder="Enter Your Email">
+                   <button class="Subscribe">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    
+    
+       <div class="footer-footer">
+    
+        <div class="footer1">
+            <div class="contact">
+                <div class="utility2 utility"> Utility Pages</div>
+                    <div class="right">Style guyde</div>
+                    <a class="nav-texts" href="page404.html">  <div class="right">404 Not Found</div></a>
+                    <a class="nav-texts" href="password.html"><div class="right">Pasword Protected</div></a>
+                    <a class="nav-texts" href="licenses.html"><div class="right">licences</div></a>
+                    <a class="nav-texts" href="changelog.html"> <div class="right">Changelog</div>  </a>  
+            </div>
+        </div>
+    
+    
+        <div class="footer2">
+            <div class="footer-logo">
+                <img class="organic-logo1" src="pics3/container1logo.png" alt="">
+                Organick
+            </div>
+    
+            <div class="simplyy2">Simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum simply dummy text of the printing 
+            </div>
+    
+            <div class="footer-imgs">
+                <img class="imgs" src="pics3/Insta.png" alt="">
+                <img class="imgs" src="pics3/facebook.png" alt="">
+                <img class="imgs" src="pics3/twitter.png" alt="">
+                <img class="imgs" src="pics3/pinterest.png" alt="">
+            </div>
+        </div>
+    
+    
+    
+        <div class="footer3">
+            <div class="contact contact2"> 
+                <div class="utility">Conract us</div>
+                <div class="email2">Email</div>  
+                <div class="texteleft">giorg541@gmail.com</div>
+                <div class="email2">Phone</div>
+                <div class="texteleft">595-1072-35</div> 
+                <div class="email2">Address  </div>
+                <div class="texteleft">Chikobavas</div>
+              
+            </div>
+         </div>
+    
+       </div>
+    
+    
+        <div class="final-details">
+            Copyright © Organick | Designed by VictorFlow Templates - Powered by Webflow
+        </div>
+    </div>
+    <script src="services.js"></script>
+    <script src="single.js"></script>
+</body>
+</html>

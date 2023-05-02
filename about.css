@@ -1,0 +1,1743 @@
+html,body{    
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+} 
+::-webkit-scrollbar{
+    background-color: white;
+}
+::-webkit-scrollbar-button{
+    height: 0px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: black;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: none;
+    border-radius: 10px;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.header-logo{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.header-nav{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly;       
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #274C5B;
+}
+.nav-links{
+    text-decoration: none;
+}
+.nav-texts{
+    font-size: 100%;
+    text-decoration: none;
+    color: black;
+}
+.header-input{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.header-logo-text{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 160%;
+    color: #274C5B;
+}
+.email{
+    width: 100px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 16px; 
+    border: 2px solid black;
+}
+.email::placeholder{
+    font-style: italic;
+    font-weight: 600;
+    opacity: 0.7;
+    padding: 0 10px;
+}
+.searchbaricon{
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    padding: 13px;
+    background-color: #7EB693;
+    transition: 0.3s all ease-in-out;
+}
+.searchbaricon:hover{
+    background-color: #274C5B;
+    scale: 1.1;
+}
+.input-display{
+    display: flex;
+    align-items: center;
+}
+.container1-cart{
+    border:1px solid grey;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    width: 120px;
+    height: 50px;
+}
+.container1-cart-text{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 108%;
+    line-height: 21px;
+}
+.cart-icon{
+    width: 50px;
+    height: 50px;
+}
+
+.low-background{
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: url(pics1/aboutusbenne.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-us{
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+    color: #274C5B;
+    text-shadow: 0px 0px 2px black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.salata{
+    width: 100%;
+    display: flex;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+}
+.salata-half{
+    width: 45%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.responsive-salata{
+    width: 600px;
+}
+.salataspace{
+    width: 10%;
+}
+.other-half{
+    width: 45%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about-img{
+    width: 120px;
+}
+.we-do-creative{
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    color: #274C5B;
+}
+.simply-dummy{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 165.4%;
+    color: #525C60;
+}
+.modern-agriculture{
+    display: flex;
+    width: 100%;
+    height: 80px;
+}
+.modern-child1{
+    width: 40%;
+    height: 80px;
+    display: flex;
+    margin-top: 20px;
+}
+.child1-text{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #274C5B;
+}
+.tractor{
+    width: 50px;
+    height: 50px;
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 80px;
+    background: #274C5B;
+    border-radius: 16px;   
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    transition: 0.3s all ease-in-out;
+}
+.explorehref{
+    text-decoration: none;
+}
+.button:hover{
+    color: #274C5B;
+    background-color: white;
+    border:1px  solid #274C5B;
+}
+
+
+
+
+
+
+
+.why-by-from-us{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #F9F8F8;
+    align-items: flex-end;
+}
+.flex{
+    width: 100%;
+    display: flex;
+    height: 600px;
+    margin-top: 50px;
+}
+.third-half{
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    display: flex;
+}
+.why-first-half{
+    width: 50%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+.why-second-half{
+    width: 600px;
+    height: 400px;
+    background: url(pics1/greenback.jpg);
+    border-radius: 30px;
+}
+.text-twindow{
+    width: 70%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+}
+.why-choose-us{
+    width: 140px;
+    height: 30px;
+}
+.we-dont-text{
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    color: #274C5B;
+}
+.natural{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 61px;
+    padding: 10px;
+    background: #ECECEC;
+    border-radius: 49px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #274C5B;
+}
+.circle{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid green;
+}
+.cards-mother{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+.card1{
+    width: 220px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex; 
+    flex-direction: column;
+}
+.cards-img{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.img-background{
+    background-color: rgb(237, 234, 234);
+    padding: 10px 10px 20px;
+    border-radius: 10px;
+}
+.card-texts{
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50%;
+}
+.return-policy{
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    color: #274C5B;
+    text-align: center;
+}
+.simplyy{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 165.4%;
+    color: #525C60;
+}
+
+
+
+
+
+
+
+
+
+
+
+.experts{
+    display: flex;
+    width: 100%;
+    height: 800px;
+    align-items: center;
+    flex-direction: column;
+}
+.experts-header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+.team-img{
+    width: 100px;
+    height: 50px;
+}
+.simply2{
+    width: 70%;
+}
+.experts-profiles{
+    width: 80%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-expert{
+    width: 300px;
+    height: 400px;
+    background-color: rgb(247, 245, 245);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+.card-profile1{
+    width: 100%;
+    height: 70%;
+    background: url(pics1/farmer.jpg);
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-profile2{
+    width: 100%;
+    height: 70%;
+    background: url(pics1/designer.jpg);
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-profile3{
+    width: 100%;
+    height: 70%;
+    background: url(pics1/farmerwomen.jpg);
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.expert-names{
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    color: #274C5B;
+    text-align: center;
+    width: 80%;
+    text-align: left;
+    margin-top: 20px;
+}
+.card-icons{
+    width: 80%;
+    display: flex;
+    margin-top: 10px;
+}
+.icons1{
+    width: 50%;
+}
+.icons2{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+
+
+
+
+
+.what-we-offer{
+    width: 100%;
+    height: 700px;
+    background: #274C5B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.what-we-offer-header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header-text{
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+.photos{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.wiwaka{
+    width: 280px;
+    height: 280px;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-inputs{
+    width: 80%;
+    height: 250px;
+    background: url(pics1/footeback.jpg);
+    border-radius: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.footer-text-parent{
+    width: 80%;
+    height: 150px;
+    display: flex;
+}
+.footer-text{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.footer-text-text{
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 180%;
+    color: #FFFFFF;
+    width: 50%;
+}
+.footer-input{
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+.email{
+    width: 60%;
+    height: 80px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    border: none;
+}
+.email::placeholder{
+    font-style: italic;
+    font-weight: 600;
+    opacity: 0.7;
+    padding: 0 10px;
+}
+.Subscribe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 80px;
+    background: #274C5B;
+    border-radius: 16px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 100%;
+    color: #FFFFFF;
+    transition: 0.3s all ease-in-out;
+    border: none;
+    margin-left: 5px;
+}
+.Subscribe:hover{
+    background-color: #518296;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.footer-footer{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer1{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+    border-right: 1px solid grey;
+}
+
+.footer2{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer3{
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+    border-left: 1px solid grey;
+    text-align: left;
+    justify-content: flex-start;
+}
+.utility{
+    width: 100%;
+    height: 10%;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #274C5B;
+    text-align: left;
+}
+.utility2{
+    text-align: right;
+}
+.right{
+    text-align: right;
+}
+.texteleft{
+    text-align: left;
+}
+.footer-logo{       
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: #274C5B;
+    display: flex;
+    align-items: center;
+}
+.footer-imgs{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.organic-logo{
+    width: 50px;
+    height: 50px;
+}
+.email2{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: left;
+    color: #525C60;
+    margin-top: 30px;
+}
+.contact{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.final-details{
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.organic-logo1{
+    width: 50px;
+    height: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1540px) {
+    .wiwaka{
+        height: 250px;
+        width: 250px;
+    }
+}    
+@media only screen and (max-width: 1370px) {
+    .cards-mother{
+        width: 75%;
+    }
+    .wiwaka{
+        height: 235px;
+        width: 235px;
+    }
+    .what-we-offer{
+        height: 700px;
+    }
+   
+}
+
+
+
+
+@media only screen and (max-width: 1200px) {
+    .about-img{
+        width: 80px;
+    }
+    .we-do-creative{
+        font-size: 40px;
+    }
+    .simply-dummy{
+        font-size: 16px;
+        width: 100%;
+    }
+    .tractor{
+        width: 40px;
+        height: 40px;
+    }
+    .button{
+        width: 180px;
+        height: 66px;
+        font-size: 17px;
+    }
+    .natural{
+        width: 180px;
+        height: 50px;
+    }
+    .why-second-half{
+        width: 500px;
+        height: 300px;
+    }
+    .card1{
+        width: 190px;
+        height: 280px;
+    }
+    .img-background{
+        padding: 8px 8px 14px;
+        width: 50px;
+        height: 50px;
+    }
+    .return-policy{
+        font-size: 20px;
+    }
+    .simplyy{
+        font-weight: 400;
+        font-size: 15px;
+    }
+    .flex{
+        height: 500px;
+    }
+    .third-half{
+        height: 350px;
+    }
+    .expert-names{
+        margin-top: 20px;
+    } 
+    .facebook{
+        width: 20px;
+        height: 20px;
+    }
+    .card-expert{
+        width: 265px;
+    }
+    .wiwaka{
+        height: 195px;
+        width: 195px;
+    }
+    .what-we-offer{
+        height: 600px;
+    }
+    .header-text{
+        font-size: 40px;
+        text-align: center;
+    }
+    .responsive-salata{
+        width: 550px;
+    }
+    
+    .footer{
+        height: 700px;
+    }
+    .footer-footer{
+        height: 270px;
+    }
+    .utility{
+        font-size: 15px;
+    }
+    .email2{
+        font-size: 10px;
+    }
+    .organic-logo1{
+        width: 30px;
+        height: 50px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .about-img{
+        width: 60px;
+    }
+    .we-do-creative{
+        font-size: 30px;
+    }
+    .simply-dummy{
+        font-size: 12px;
+        width: 100%;
+    }
+    .tractor{
+        width: 25px;
+        height: 25px;
+    }
+    .child1-text{
+        font-size: 16px;
+    }
+    .natural{
+        width: 150px;
+        height: 40px;
+    }
+    .why-second-half{
+        width: 400px;
+        height: 300px;
+    }
+    .card1{
+        width: 150px;
+        height: 250px;
+    }
+ 
+    .img-background{
+        padding: 7px 7px 12px;
+        width: 30px;
+        height: 30px;
+    }
+    .return-policy{
+        font-size: 16px;
+    }
+    .simplyy{
+        font-weight: 400;
+        font-size: 13px;
+    }
+    .flex{
+        height: 400px;
+    }
+    .third-half{
+        height: 300px;
+    }
+    .expert-names{
+        margin-top: 12px;
+        font-size: 20px;
+    } 
+    .facebook{
+        width: 20px;
+        height: 20px;
+    }
+    .card-expert{
+        width: 210px;
+        height: 350px;
+    }
+    .farmertext{
+        width: 60px;
+    }
+    .experts{
+        height: 600px;
+    }
+    .wiwaka{
+        height: 155px;
+        width: 155px;
+    }
+    .what-we-offer{
+        height: 450px;
+    }
+
+
+    .footer-inputs{
+        width: 80%;
+        height: 240px;
+    }
+    .footer-text-parent{
+        width: 80%;
+        height: 150px;
+        display: flex;
+    }
+    .footer-text{
+        width: 50%;
+    }
+    .footer-text-text{
+        font-size: 150%;
+        width: 100%;
+    }
+    .footer-input{
+        display: flex;
+        width: 50%;
+        align-items: center;
+    }
+    .email{
+        width: 60%;
+        height: 60px;
+    }
+    .Subscribe{
+        width: 40%;
+        height: 60px;
+    }
+    .footer{
+        height: 500px;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 800px) {
+    .header{
+        height: 80px;
+    }
+    .nav-texts{
+        font-size: 80%;
+    }
+    .header-logo-text{
+        font-size: 120%;
+    }
+    .email{
+        width: 70px;
+        height: 20px;
+    }
+    .searchbaricon{
+        width: 12px;
+        height: 12px;
+        padding: 7px;
+    }
+    .container1-cart{
+        border-radius: 30px;
+        width: 80px;
+        height: 30px;
+    }
+    .container1-cart-text{
+        font-size: 80%;
+    }
+    .cart-icon{
+        width: 25px;
+        height: 25px;
+    }
+    .header-logo1{
+        width: 25px;
+        height: 50px;
+    }
+    .low-background{
+        height: 200px;
+    }
+    .about-us{
+        font-size: 40px;
+    }
+    .about-img{
+        width: 50px;
+    }
+    .about-img{
+        width: 60px;
+    }
+    .we-do-creative{
+        font-size: 20px;
+        color: #274C5B;
+    }
+    .simply-dummy{
+        font-size: 12px;
+        width: 100%;
+    }
+    .tractor{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        padding: 5px;
+    }
+    .child1-text{
+        font-size: 13px;
+    }
+    .button{
+        width: 130px;
+        height: 40px;
+        font-size: 15px;
+    }
+    .salata{
+        height: 400px;
+    }
+    .responsive-salata{
+        width: 125%;
+    }
+    .natural{
+        width: 160px;
+        height: 30px;
+        font-size: 16px;
+    }
+    .why-second-half{
+        width: 300px;
+        height: 300px;
+    }
+    .card1{
+        width: 130px;
+        height: 220px;
+    }
+    .img-background{
+        padding: 7px 7px 12px;
+        width: 30px;
+        height: 30px;
+    }
+    .return-policy{
+        font-size: 13px;
+    }
+    .simplyy{
+        font-weight: 400;
+        font-size: 10px;
+    }
+    .flex{
+        height: 400px;
+    }
+    .cards-mother{
+        width: 90%;
+    }
+    .third-half{
+        height: 250px;
+    }
+    .flex{
+        height: 400px;
+    }
+    .expert-names{
+        margin-top: 12px;
+        font-size: 15px;
+    } 
+    .facebook{
+        width: 20px;
+        height: 20px;
+    }
+    .card-expert{
+        width: 160px;
+        height: 300px;
+    }
+    .farmertext{
+        width: 60px;
+    }
+    .experts{
+        height: 500px;
+    }
+    .wiwaka{
+        height: 120px;
+        width: 120px;
+    }
+    .what-we-offer{
+        height: 400px;
+    }
+    .header-text{
+        font-size: 30px;
+    }
+
+
+
+
+
+
+
+    .footer-inputs{
+        width: 80%;
+        height: 180px;
+    }
+    .footer-text{
+        width: 50%;
+    }
+    .footer-text-text{
+        font-size: 120%;
+        width: 100%;
+    }
+    .footer-input{
+        display: flex;
+        width: 50%;
+        align-items: center;
+    }
+    .email{
+        width: 60%;
+        height: 30px;
+        border-radius: 5px;
+        font-size: 11px;
+    }
+    .Subscribe{
+        width: 40%;
+        height: 30px;
+        font-size: 13px;
+        border-radius: 5px;
+    }
+    .footer-footer{
+        height: 170px;
+    }
+    .email2{
+        font-size: 7px;
+    }
+    .utility{
+        font-size: 13px;
+    }
+    .imgs{
+        width: 20px;
+        height: 20px;
+    }
+    .final-details{
+        margin-top: 0px;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .header{
+        height: 60px;
+    }
+    .nav-texts{
+        font-size: 60%;
+    }
+    .header-logo-text{
+        font-size: 80%;
+    }
+    .email{
+        width: 45px;
+        height: 15px;
+    }
+    .searchbaricon{
+        width: 7px;
+        height: 7px;
+        padding: 7px;
+    }
+    .container1-cart{
+        border-radius: 30px;
+        width: 60px;
+        height: 20px;
+    }
+    .container1-cart-text{
+        font-size: 60%;
+    }
+    .cart-icon{
+        width: 20px;
+        height: 20px;
+    }
+    .header-logo1{
+        width: 20px;
+        height: 30px;
+    }
+    .low-background{
+        height: 150px;
+    }
+    .about-us{
+        font-size: 35px;
+    }
+    .we-do-creative{
+        font-size: 17px;
+        color: black;
+    }
+    .simply-dummy{
+        font-size: 10px;
+        width: 100%;
+        color: black;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+    .tractor{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        padding: 5px;
+    }
+    .child1-text{
+        font-size: 9px;
+        color: black;
+    }
+    .button{
+        width: 130px;
+        height: 40px;
+        font-size: 15px;
+    }
+    .salata{
+        height: 300px;
+        align-items: center;
+    }
+    .salata-half{
+        height: 100%;
+    }
+    .black{
+        color: #274C5B;
+        text-shadow: 0px 0px 0px ;
+    }
+    .natural{
+        width: 130px;
+        height: 20px;
+        font-size: 10px;
+        margin-top: 5px;
+    }
+    .why-second-half{
+        width: 250px;
+        height: 250px;
+    }
+    
+    .card1{
+        width: 90px;
+        height: 150px;
+        border-radius: 10px;
+    }
+    .img-background{
+        padding: 7px 7px 12px;
+        width: 20px;
+        height: 20px;
+    }
+    .return-policy{
+        font-size: 10px;
+    }
+    .simplyy{
+        font-weight: 400;
+        font-size: 7px;
+    }
+    .flex{
+        height: 400px;
+    }
+    .cards-mother{
+        width: 90%;
+    }
+    .third-half{
+        height: 200px;
+    }
+    .flex{
+        height: 300px;
+    }
+    .expert-names{
+        margin-top: 12px;
+        font-size: 15px;
+    } 
+    .facebook{
+        width: 10px;
+        height: 10px;
+    }
+    .card-expert{
+        width: 100px;
+        height: 200px;
+    }
+    .farmertext{
+        width: 40px;
+    }
+    .experts{
+        height: 400px;
+    }
+    .card-profile1{
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .card-profile2{
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .card-profile3{
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .wiwaka{
+        height: 80px;
+        width: 80px;
+        border-radius: 10px;
+    }
+    .what-we-offer{
+        height: 300px;
+    }
+
+
+
+
+
+    
+    .footer-inputs{
+        width: 80%;
+        height: 120px;
+    }
+    .footer-text{
+        width: 50%;
+    }
+    .footer-text-text{
+        font-size: 120%;
+        width: 100%;
+    }
+    .footer-input{
+        display: flex;
+        width: 50%;
+        align-items: center;
+    }
+    .email{
+        width: 60%;
+        height: 20px;
+        border-radius: 5px;
+        font-size: 8px;
+    }
+    .email::placeholder{
+        padding-left: 2px;
+    }
+    .Subscribe{
+        width: 40%;
+        height: 25px;
+        font-size: 8px;
+        border-radius: 5px;
+    }
+    .footer-text-text{
+        font-size: 14px;
+    }
+    .final-details{
+        margin-top: 0px;
+        font-size: 11px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .header{
+        height: 50px;
+    }
+    .nav-texts{
+        font-size: 50%;
+    }
+    .header-logo-text{
+        font-size: 70%;
+    }
+    .email{
+        width: 40px;
+        height: 10px;
+    }
+    .searchbaricon{
+        width: 5px;
+        height: 5px;
+        padding: 5px;
+    }
+    .container1-cart{
+        width: 50px;
+        height: 12px;
+    }
+    .container1-cart-text{
+        font-size: 50%;
+    }
+    .cart-icon{
+        width: 15px;
+        height: 15px;
+    }
+    .header-logo1{
+        width: 15px;
+        height: 25px;
+    }
+    .low-background{
+        height: 100px;
+    }
+    .about-us{
+        font-size: 20px;
+    }
+    .we-do-creative{
+        font-size: 12px;
+    }
+    .simply-dummy{
+        font-size: 8px;
+        color: black;
+    }
+    .tractor{
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        padding: 5px;
+    }
+    .child1-text{
+        font-size: 7px;
+    }
+    .button{
+        width: 100px;
+        height: 35px;
+        font-size: 12px;
+        border-radius: 10px;
+    }
+    .salata{
+        height: 300px;
+        align-items: center;
+    }
+    .responsive-salata{
+        width: 250px;
+    }
+    .salata-half{
+        height: 100%;
+    }
+    .other-half{
+        height: 300px;
+    }
+    .black{
+        color: #274C5B;
+        text-shadow: 0px 0px 0px ;
+    }
+    .black2{
+        color: grey;
+        text-shadow: 0px 0px 0px;
+    }
+    .why-second-half{
+        width: 220px;
+        height: 250px;
+    }
+    .why-second-half{
+        width: 180px;
+        height: 280px;
+    }
+    .black1{
+        display: none;
+    }
+    .natural{
+        width: 100px;
+        font-size: 10px;
+        line-height: 8px;
+    }
+    .black2{
+        width: 130px;
+    }
+    .why-choose-us{
+        z-index: 2;
+    }
+    .card1{
+        width: 80px;
+        height: 140px;
+        border-radius: 10px;
+    }
+    .img-background{
+        padding: 7px 7px 12px;
+        width: 20px;
+        height: 20px;
+    }
+    .return-policy{
+        font-size: 10px;
+    }
+    .simplyy{
+        font-weight: 400;
+        font-size: 7px;
+    }
+    .flex{
+        height: 400px;
+    }
+    .cards-mother{
+        width: 90%;
+    }
+    .third-half{
+        height: 170px;
+    }
+    .flex{
+        height: 350px;
+    }
+    .expert-names{
+        margin-top: 12px;
+        font-size: 13px;
+    } 
+    .facebook{
+        width: 10px;
+        height: 10px;
+    }
+    .card-expert{
+        width: 90px;
+        height: 180px;
+    }
+    .farmertext{
+        width: 40px;
+    }
+    .experts{
+        height: 320px;
+    }
+    .wiwaka{
+        width: 75px;
+        height: 75px;   
+        border-radius: 10px; 
+    }
+    .what-we-offer{
+        height: 250px;
+    }
+
+
+
+
+
+    .footer-inputs{
+        width: 80%;
+        height: 120px;
+    }
+    .footer-text{
+        width: 50%;
+    }
+    .footer-text-text{
+        font-size: 120%;
+        width: 100%;
+    }
+    .footer-input{
+        display: flex;
+        width: 50%;
+        align-items: center;
+    }
+    .email{
+        width: 60%;
+        height: 20px;
+        border-radius: 5px;
+        font-size: 8px;
+    }
+    .email::placeholder{
+        padding-left: 2px;
+    }
+    .Subscribe{
+        width: 40%;
+        height: 25px;
+        font-size: 8px;
+        border-radius: 5px;
+    }
+    .footer-text-text{
+        font-size: 14px;
+    }
+    .final-details{
+        margin-top: 0px;
+        font-size: 7px;
+    }
+    
+}
+@media only screen and (max-width: 360px) {
+    .why-second-half{
+        width: 150px;
+        height: 280px;
+    }
+    .card1{
+        width: 60px;
+        height: 120px;
+        border-radius: 10px;
+    }
+    .img-background{
+        padding: 5px 5px 9px;
+        width: 17px;
+        height: 17px;
+    }
+    .return-policy{
+        font-size: 7px;
+    }
+    .simplyy{
+        font-weight: 400;
+        font-size: 5px;
+    }
+    .flex{
+        height: 400px;
+    }
+    .expert-names{
+        margin-top: 12px;
+        font-size: 10px;
+    } 
+    .facebook{
+        width: 7px;
+        height: 7px;
+    }
+    .card-expert{
+        width: 70px;
+        height: 170px;
+    }
+    .farmertext{
+        width: 30px;
+    }
+    .experts{
+        height: 320px;
+    }
+    .card-profile1{
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .card-profile2{
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .card-profile3{
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .wiwaka{
+        width: 60px;
+        height: 60px;
+        border-radius: 10px;    
+    }
+    .responsive-salata{
+        width: 200px;
+    }
+    .button{
+        width: 80px;
+        height: 25px;
+        font-size: 8px;
+    }
+
+
+
+    
+}
+@media only screen and (max-width: 300px) {
+    .nav-texts{
+        font-size: 40%;
+    }
+    .header-logo-text{
+        font-size: 50%;
+    }
+    .email{
+        width: 20px;
+        height: 7px;
+    }
+    .searchbaricon{
+        width: 4px;
+        height: 4px;
+        padding: 4px;
+    }
+    .container1-cart{
+        width: 40px;
+        height: 8px;
+    }
+    .container1-cart-text{
+        font-size: 40%;
+    }
+    .cart-icon{
+        width: 10px;
+        height: 10px;
+    }
+    .header-logo1{
+        width: 10px;
+        height: 16px;
+    }
+    .child1-text{
+        font-size: 6px;
+    }
+    .about-img{
+        width: 40px;
+    }
+    .other-half{
+        border-radius: 10px;
+    }
+    .black{
+        color: #274C5B;
+        text-shadow: 0px 0px 0px ;
+    }
+    .black2{
+        color: grey;
+        text-shadow: 0px 0px 0px;
+    }
+    .wiwaka{
+        width: 40px;
+        height: 40px;   
+        border-radius: 5px; 
+    }
+
+
+
+    .footer-inputs{
+        width: 80%;
+        height: 120px;
+    }
+    .footer-text{
+        width: 50%;
+    }
+    .footer-text-text{
+        font-size: 120%;
+        width: 100%;
+    }
+    .footer-input{
+        display: flex;
+        width: 50%;
+        align-items: center;
+    }
+    .email{
+        width: 60%;
+        height: 20px;
+        border-radius: 5px;
+        font-size: 8px;
+    }
+    .email::placeholder{
+        padding-left: 2px;
+    }
+    .Subscribe{
+        width: 40%;
+        height: 25px;
+        font-size: 8px;
+        border-radius: 5px;
+    }
+    .footer-text-text{
+        font-size: 14px;
+    }
+}

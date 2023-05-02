@@ -1,0 +1,1710 @@
+html,body{    
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+} 
+::-webkit-scrollbar{
+    background-color: white;
+}
+::-webkit-scrollbar-button{
+    height: 0px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: black;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: none;
+    border-radius: 10px;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.header-logo{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.header-nav{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly;       
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #274C5B;
+}
+.nav-texts{
+    font-size: 100%;
+    text-decoration: none;
+    color: black;
+}
+.header-input{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.header-logo-text{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 160%;
+    color: #274C5B;
+}
+.email{
+    width: 100px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    border: none; 
+}
+.email::placeholder{
+    font-style: italic;
+    font-weight: 600;
+    opacity: 0.7;
+    padding: 0 10px;
+    border: none;
+}
+.searchbaricon{
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    padding: 13px;
+    background-color: #7EB693;
+    transition: 0.3s all ease-in-out;
+}
+.searchbaricon:hover{
+    background-color: #274C5B;
+    scale: 1.1;
+}
+.input-display{
+    display: flex;
+    align-items: center;
+}
+.container1-cart{
+    border:1px solid grey;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    width: 120px;
+    height: 50px;
+}
+.container1-cart-text{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 108%;
+    line-height: 21px;
+}
+.cart-icon{
+    width: 50px;
+    height: 50px;
+}
+.low-background{
+    width: 100%;
+    height: 250px;
+    background-size: contain;
+    background: url(pics4/vashlibackround.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-us{
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+    color: #274C5B;
+}
+.simplyy2{
+    text-align: center;
+}
+
+
+
+
+
+
+
+.better-agriculure{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+}
+.better-header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.better-text{
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    text-align: center;
+    color: #274C5B;
+    width: 40%;
+    margin: 0;
+}
+.txili-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    align-items: center;
+}
+.txili-img{
+    display: flex;
+    justify-content: center;
+}
+.txili-texts1{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 500px;
+}
+.dayry-products{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.milkbottle{
+    width: 40px;
+    height: 40px;
+}
+.text-main{
+    text-align: right;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: #274C5B;
+}
+.text-notmain{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: right;
+    color: #525C60;
+    margin-top: 10px;
+}
+.txileuloba{
+    width: 400px;
+    height: 500px;
+    z-index: 1;
+}
+.textmainleft{
+    text-align: left;
+}
+.dayry-productsleft{
+    align-items: flex-start;
+}
+
+
+
+
+
+
+
+
+
+
+.footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-text-parent{
+    width: 80%;
+    height: 150px;
+    display: flex;
+}
+.footer-text{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.footer-text-text{
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 180%;
+    color: #FFFFFF;
+    width: 50%;
+}
+
+.footer-footer{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer1{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+    border-right: 1px solid grey;
+}
+
+.footer2{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer3{
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+    border-left: 1px solid grey;
+    text-align: left;
+    justify-content: flex-start;
+}
+.utility{
+    width: 100%;
+    height: 10%;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #274C5B;
+    text-align: left;
+}
+.utility2{
+    text-align: right;
+}
+.right{
+    text-align: right;
+}
+.texteleft{
+    text-align: left;
+}
+.footer-logo{       
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: #274C5B;
+    display: flex;
+    align-items: center;
+}
+.footer-imgs{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.organic-logo{
+    width: 50px;
+    height: 50px;
+}
+.email2{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: left;
+    color: #525C60;
+    margin-top: 30px;
+}
+.contact{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.final-details{
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.organic-logo1{
+    width: 50px;
+    height: 70px;
+}
+.button-parent{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 220px;
+    height: 80px;
+    background: #F9F8F8;
+    border: 2px solid #335B6B;
+    border-radius: 16px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #274C5B;
+    transition: 0.3s all ease-in-out;
+}
+.button:hover{
+    background-color: #274C5B;
+    color: #F9F8F8;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.everyday{
+    width: 100%;
+    height: 700px;
+    margin-top: 200px;
+    background: url(pics4/yayacho.jpg);
+    background-size: cover;
+    background-repeat: none;
+    margin-bottom: 100px;
+    position: relative;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.video{
+    width: 70%;
+    position: absolute;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.xclosebutton{
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    opacity: 1;
+    z-index: 10;
+    margin-top: 50px;
+}
+.close{
+    font-size: 50px;   
+    color: white;
+    text-shadow: 0px 0px 1px black;
+    transition: 0.2s all ease-in-out;
+    background-color: red;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 0;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.close:hover{
+    color: red;
+    text-shadow: 0px 1px 10px red;
+    background-color: white;
+}
+.vidoclass{
+   width: 100%;
+   box-shadow: 10px 10px 10px black;
+   height: 50%;
+}
+.simplyy{
+    width: 50%;
+    text-align: center;
+}
+.play{
+    border-radius: 50%;
+    background-color: #7EB693;
+    padding: 10px;
+    z-index: 0;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+}
+.play:hover{
+    background-color: #525C60;
+}
+.playbutton{
+    z-index: 0;
+}
+.margin-header{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:1200px){
+    .footer-footer{
+        height: 270px;
+    }
+    .utility{
+        font-size: 15px;
+    }
+    .email2{
+        font-size: 20px;
+        text-align: center;
+    }
+    .organic-logo1{
+        width: 30px;
+        height: 50px;
+    }
+    .relatedproducts{
+        font-size: 40px;
+    }
+    }
+    
+    @media only screen and (max-width:1000px){
+      
+        .footer-inputs{
+            width: 80%;
+            height: 240px;
+        }
+        .footer-text-parent{
+            width: 80%;
+            height: 150px;
+            display: flex;
+        }
+        .footer-text{
+            width: 50%;
+        }
+        .footer-text-text{
+            font-size: 150%;
+            width: 100%;
+        }
+        .footer-input{
+            display: flex;
+            width: 50%;
+            align-items: center;
+        }
+        .email{
+            width: 60%;
+            height: 60px;
+        }
+        .Subscribe{
+            width: 40%;
+            height: 60px;
+        }
+        .button-parent{
+            margin-top: 20px;
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @media only screen and (max-width: 800px) {
+    
+        /*footeri*/
+        .footer-inputs{
+            width: 80%;
+            height: 180px;
+        }
+        .footer-text{
+            width: 50%;
+        }
+        .footer-text-text{
+            font-size: 120%;
+            width: 100%;
+        }
+        .footer-input{
+            display: flex;
+            width: 50%;
+            align-items: center;
+        }
+        .email{
+            width: 60%;
+            height: 30px;
+            border-radius: 5px;
+            font-size: 11px;
+        }
+        .Subscribe{
+            width: 40%;
+            height: 30px;
+            font-size: 13px;
+            border-radius: 5px;
+        }
+        .footer-footer{
+            height: 170px;
+        }
+        .email2{
+            font-size: 20px;
+        }
+        .utility{
+            font-size: 20px;
+        }
+        .imgs{
+            width: 20px;
+            height: 20px;
+        }
+        .final-details{
+            margin-top: 0px;
+            font-size: 15px;
+        }
+        .relatedproducts{
+            font-size: 30px;
+        }
+        .cards-flex1{
+            margin-top: 20px;
+        }
+    }
+    
+    @media only screen and (max-width: 600px) {
+        .header{
+            height: 60px;
+        }
+        .nav-texts{
+            font-size: 60%;
+        }
+        .header-logo-text{
+            font-size: 80%;
+        }
+        .email{
+            width: 45px;
+            height: 15px;
+        }
+        .searchbaricon{
+            width: 7px;
+            height: 7px;
+            padding: 7px;
+        }
+        .container1-cart{
+            border-radius: 30px;
+            width: 60px;
+            height: 20px;
+        }
+        .container1-cart-text{
+            font-size: 60%;
+        }
+        .cart-icon{
+            width: 20px;
+            height: 20px;
+        }
+        .header-logo1{
+            width: 20px;
+            height: 30px;
+        }
+        .low-background{
+            height: 150px;
+        }
+        .about-us{
+            font-size: 35px;
+        }
+        .relatedproducts{
+            font-size: 25px;
+        }
+        .cards-flex1{
+            margin-top: 10px;
+        }
+        .button-parent{
+            margin-top: 10px;
+        }
+    
+    
+    
+        /*footer*/
+        .footer-inputs{
+            width: 80%;
+            height: 120px;
+        }
+        .footer-text{
+            width: 50%;
+        }
+        .footer-text-text{
+            font-size: 120%;
+            width: 100%;
+        }
+        .footer-input{
+            display: flex;
+            width: 50%;
+            align-items: center;
+        }
+        .email{
+            width: 60%;
+            height: 20px;
+            border-radius: 5px;
+            font-size: 8px;
+        }
+        .email::placeholder{
+            padding-left: 2px;
+        }
+        .Subscribe{
+            width: 40%;
+            height: 25px;
+            font-size: 8px;
+            border-radius: 5px;
+        }
+        .footer-text-text{
+            font-size: 14px;
+        }
+        .final-details{
+            margin-top: 0px;
+            font-size: 11px;
+        }
+    
+    
+    }
+    @media only screen and (max-width: 400px) {
+        .header{
+            height: 50px;
+        }
+        .nav-texts{
+            font-size: 50%;
+        }
+        .header-logo-text{
+            font-size: 70%;
+        }
+        .email{
+            width: 40px;
+            height: 10px;
+        }
+        .searchbaricon{
+            width: 5px;
+            height: 5px;
+            padding: 5px;
+        }
+        .container1-cart{
+            width: 50px;
+            height: 12px;
+        }
+        .container1-cart-text{
+            font-size: 50%;
+        }
+        .cart-icon{
+            width: 15px;
+            height: 15px;
+        }
+        .header-logo1{
+            width: 15px;
+            height: 25px;
+        }
+        .low-background{
+            height: 100px;
+        }
+        .about-us{
+            font-size: 30px;
+        }
+    
+    
+    
+         /*footeri*/
+        
+         .footer-inputs{
+            width: 80%;
+            height: 120px;
+        }
+        .footer-text{
+            width: 50%;
+        }
+        .footer-text-text{
+            font-size: 120%;
+            width: 100%;
+        }
+        .footer-input{
+            display: flex;
+            width: 50%;
+            align-items: center;
+        }
+        .email{
+            width: 60%;
+            height: 20px;
+            border-radius: 5px;
+            font-size: 8px;
+        }
+        .email::placeholder{
+            padding-left: 2px;
+        }
+        .Subscribe{
+            width: 40%;
+            height: 25px;
+            font-size: 8px;
+            border-radius: 5px;
+        }
+        .footer-text-text{
+            font-size: 14px;
+        }
+        .final-details{
+            margin-top: 0px;
+            font-size: 7px;
+        }
+        
+    }
+    @media only screen and (max-width: 300px) {
+        .nav-texts{
+            font-size: 40%;
+        }
+        .header-logo-text{
+            font-size: 50%;
+        }
+        .email{
+            width: 20px;
+            height: 7px;
+        }
+        .searchbaricon{
+            width: 4px;
+            height: 4px;
+            padding: 4px;
+        }
+        .container1-cart{
+            width: 40px;
+            height: 8px;
+        }
+        .container1-cart-text{
+            font-size: 40%;
+        }
+        .cart-icon{
+            width: 10px;
+            height: 10px;
+        }
+        .header-logo1{
+            width: 10px;
+            height: 16px;
+        }
+        .relatedproducts{
+            font-size: 20px;
+        }
+    
+    
+    
+    
+    
+         /*footeri*/
+         .footer-inputs{
+            width: 80%;
+            height: 120px;
+        }
+        .footer-text{
+            width: 50%;
+        }
+        .footer-text-text{
+            font-size: 120%;
+            width: 100%;
+        }
+        .footer-input{
+            display: flex;
+            width: 50%;
+            align-items: center;
+        }
+        .email{
+            width: 60%;
+            height: 20px;
+            border-radius: 5px;
+            font-size: 8px;
+        }
+        .email::placeholder{
+            padding-left: 2px;
+        }
+        .Subscribe{
+            width: 40%;
+            height: 25px;
+            font-size: 8px;
+            border-radius: 5px;
+        }
+        .footer-text-text{
+            font-size: 14px;
+        }
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @media only screen and (max-width:1200px){
+    .organic-logo1{
+        width: 30px;
+        height: 50px;
+    }
+    .container3-card-texts{
+        font-size: 70%;
+    }
+    .stars1{
+        width: 10px;
+        height: 10px;
+    }
+    .brokoliimgs{
+        width: 100%;
+        height: 140px;
+    }
+    .container3-vegetable{
+        font-size: 14px;
+        width: 75px;
+    }
+    .container3-cards-card{
+        height: 350px;
+    }
+    .pistacois-background{
+        width: 48%;
+        height: 350px;
+    }
+    .txili{
+        width: 100%;
+        display: flex;
+    }
+    .healt-pistacois-text{
+        font-size: 30px;
+    }
+    .simplyy{
+        margin-top: 20px;
+        font-size: 16px;
+    }
+    .one{
+        padding: 15px 30px;
+    }
+    .addtocart{
+        width: 190px;
+        height: 60px;
+        font-size: 20px;
+    }
+    .healt-pistacois-parent{
+        height: 700px;
+    }
+    .description{
+        width: 320px;
+        height: 70px;
+        font-size: 20px;
+    }
+    .additional{
+        width: 320px;
+        height: 70px;
+        font-size: 20px;
+    }
+    
+.better-text{
+    font-size: 30px;
+}
+.txili-texts1{
+    width: 20%;
+    height: 400px;
+}
+.milkbottle{
+    width: 40px;
+    height: 40px;
+}
+.text-main{
+    font-size: 17px;
+}
+.text-notmain{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.txileuloba{
+    width: 350px;
+    height: 450px;
+}
+.what-we-grow{
+    width: 150px;
+}
+.everyday{
+    height: 650px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+.margin-header{
+    height: 400px;
+}
+}
+    
+    @media only screen and (max-width:1000px){
+      
+        .footer-inputs{
+            width: 80%;
+            height: 240px;
+        }
+        .footer-text-parent{
+            width: 80%;
+            height: 150px;
+            display: flex;
+        }
+        .footer-text{
+            width: 50%;
+        }
+        .footer-text-text{
+            font-size: 150%;
+            width: 100%;
+        }
+        .footer-input{
+            display: flex;
+            width: 50%;
+            align-items: center;
+        }
+        .email{
+            width: 60%;
+            height: 60px;
+        }
+        .Subscribe{
+            width: 40%;
+            height: 60px;
+        }
+        .brokoliimgs{
+            width: 100%;
+            height: 120px;
+        }
+        .container3-cards-card{
+            height: 300px;
+        }
+        .pistacois-background{
+            width: 48%;
+            height: 350px;
+        }
+        .txili{
+            width: 100%;
+            display: flex;
+        }
+        .healt-pistacois-text{
+            font-size: 30px;
+        }
+        .simplyy{
+            margin-top: 10px;
+            font-size: 13px;
+        }
+        .one{
+            padding: 12px 30px;
+        }
+        .addtocart{
+            width: 140px;
+            height: 50px;
+            font-size: 20px;
+        }
+        .quantitiy{
+            margin-top: 5px;
+        }
+        .healt-pistacois-parent{
+            height: 600px;
+        }
+        .description{
+            width: 250px;
+            height: 70px;
+            font-size: 20px;
+        }
+        .additional{
+            width: 250px;
+            height: 70px;
+            font-size: 20px;
+        }
+        .button{
+            width: 180px;
+            height: 60px;
+            font-size: 17px;
+        }
+        .txileuloba{
+            width: 300px;
+            height: 400px;
+        }
+        .everyday{
+            height: 600px;
+            margin-top: 150px;
+            margin-bottom: 50px;
+        }
+        .margin-header{
+            height: 400px;
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @media only screen and (max-width: 800px) {
+        .header{
+            height: 80px;
+        }
+        .nav-texts{
+            font-size: 80%;
+        }
+        .header-logo-text{
+            font-size: 120%;
+        }
+        .email{
+            width: 70px;
+            height: 20px;
+        }
+        .searchbaricon{
+            width: 12px;
+            height: 12px;
+            padding: 7px;
+        }
+        .container1-cart{
+            border-radius: 30px;
+            width: 80px;
+            height: 30px;
+        }
+        .container1-cart-text{
+            font-size: 80%;
+        }
+        .cart-icon{
+            width: 25px;
+            height: 25px;
+        }
+        .header-logo1{
+            width: 25px;
+            height: 50px;
+        }
+        .low-background{
+            height: 200px;
+        }
+        .about-us{
+            font-size: 40px;
+        }
+        .container3-card-texts{
+            font-size: 60%;
+        }
+        .brokoliimgs{
+            height: 100px;
+        }
+        .stars1{
+            width: 3px;
+            height: 3px;
+        }
+        .brokoliimgs{
+            width: 100%;
+            height: 90px;
+        }
+        .container3-vegetable{
+            font-size: 11px;
+            width: 65px;
+            height: 25px;
+            border-radius: 5px;
+        }
+        .container3-cards-card{
+            height: 250px;
+        }
+        .pistacois-background{
+            width: 48%;
+            height: 300px;
+        }
+        .healt-pistacois-text{
+            font-size: 20px;
+        }
+        .simplyy{
+            margin-top: 10px;
+            font-size: 10px;
+        }
+        .one{
+            padding: 10px 20px;
+        }
+        .addtocart{
+            width: 100px;
+            height: 40px;
+            font-size: 15px;
+        }
+        .quantitiy{
+            margin-top: 5px;
+            font-size: 15px;
+        }
+        .healt-pistacois-parent{
+            height: 500px;
+        }
+        .description{
+            width: 200px;
+            height: 60px;
+            font-size: 18px;
+        }
+        .additional{
+            width: 200px;
+            height: 60px;
+            font-size: 18px;
+        }
+        .better-text{
+            font-size: 20px;
+        }
+        .txili-texts1{
+            width: 20%;
+            height: 400px;
+        }
+        .milkbottle{
+            width: 20px;
+            height: 20px;
+        }
+        .text-main{
+            font-size: 13px;
+        }
+        .text-notmain{
+            font-size: 10px;
+            margin-top: 5px;
+        }
+        .txileuloba{
+            width: 250px;
+            height: 300px;
+        }
+        .what-we-grow{
+            width: 130px;
+        }
+        .button{
+            width: 150px;
+            height: 40px;
+            font-size: 17px;
+            border-radius: 10px;
+        }
+        .txili-div{
+            margin-top: 0;
+        }
+        .everyday{
+            height: 400px;
+            margin-top: 100px;
+            margin-bottom: 50px;
+        }
+        .margin-header{
+            height: 300px;
+        }
+        .close{
+            font-size: 30px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .xclosebutton{
+            margin-top: 30px;
+        }
+    
+    
+    
+    
+    
+        /*footeri*/
+        .footer-inputs{
+            width: 80%;
+            height: 180px;
+        }
+        .footer-text{
+            width: 50%;
+        }
+        .footer-text-text{
+            font-size: 120%;
+            width: 100%;
+        }
+        .footer-input{
+            display: flex;
+            width: 50%;
+            align-items: center;
+        }
+        .email{
+            width: 60%;
+            height: 30px;
+            border-radius: 5px;
+            font-size: 11px;
+        }
+        .Subscribe{
+            width: 40%;
+            height: 30px;
+            font-size: 13px;
+            border-radius: 5px;
+        }
+        .footer-footer{
+            height: 170px;
+        }
+        .email2{
+            font-size: 15px;
+        }
+        .utility{
+            font-size: 14px;
+        }
+        .imgs{
+            width: 10px;
+            height: 10px;
+        }
+        .final-details{
+            margin-top: 0px;
+            font-size: 15px;
+        }
+        .texteleft{
+            font-size: 7px;
+        }
+        .right{
+            font-size: 8px;
+        }
+        .simplyy2{
+            font-size: 8px;
+            text-align: center;
+        }
+    }
+    
+    @media only screen and (max-width: 600px) {
+        .header{
+            height: 60px;
+        }
+        .nav-texts{
+            font-size: 60%;
+        }
+        .header-logo-text{
+            font-size: 80%;
+        }
+        .email{
+            width: 45px;
+            height: 15px;
+        }
+        .searchbaricon{
+            width: 7px;
+            height: 7px;
+            padding: 7px;
+        }
+        .container1-cart{
+            border-radius: 30px;
+            width: 60px;
+            height: 20px;
+        }
+        .container1-cart-text{
+            font-size: 60%;
+        }
+        .cart-icon{
+            width: 20px;
+            height: 20px;
+        }
+        .header-logo1{
+            width: 20px;
+            height: 30px;
+        }
+        .low-background{
+            height: 150px;
+        }
+        .about-us{
+            font-size: 35px;
+        }
+        .container3-vegetable{
+            font-size: 10px;
+        }
+        .stars1{
+            width: 3px;
+            height: 3px;
+        }
+        .brokoliimgs{
+            width: 100%;
+            height: 80px;
+        }
+        .container3-vegetable{
+            width: 45px;
+            height: 15px;
+            border-radius: 3px;
+        }
+        .container3-cards-card{
+            height: 160px;
+            border-radius: 10px;
+        }
+        .email2{
+            font-size: 10px;
+            text-align: left;
+        }
+        .pistacois-background{
+            width: 48%;
+            height: 200px;
+        }
+        .healt-pistacois-text{
+            font-size: 15px;
+        }
+        .simplyy{
+            font-size: 7px;
+        }
+        .stars2{
+            width: 8px;
+            height: 8px;
+        }
+        .one{
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        .addtocart{
+            width: 60px;
+            height: 30px;
+            font-size: 10px;
+            border-radius: 5px;
+        }
+        .quantitiy{
+            margin-top: 5px;
+            font-size: 15px;
+        }
+        .healt-pistacois-parent{
+            height: 300px;
+        }
+        .description{
+            width: 100px;
+            height: 40px;
+            font-size: 10px;
+            border-radius: 10px;
+        }
+        .additional{
+            width: 100px;
+            height: 40px;
+            font-size: 10px;
+            border-radius: 10px;
+        }
+        .better-text{
+            font-size: 16px;
+        }
+        .milkbottle{
+            width: 20px;
+            height: 20px;
+        }
+        .txili-texts1{
+            height: 300px;
+        }
+        .text-main{
+            font-size: 11px;
+        }
+        .text-notmain{
+            font-size: 7px;
+            margin-top: 5px;
+        }
+        .txileuloba{
+            width: 150px;
+            height: 250px;
+        }
+        .what-we-grow{
+            width: 110px;
+        }
+        .txileuloba{
+            width: 150px;
+            height: 250px;
+        }
+        .button{
+            width: 100px;
+            font-size: 12px;
+            height: 30px;
+            border-radius: 5px;
+        }
+        .everyday{
+            height: 250px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        .margin-header{
+            height: 180px;
+        }
+        .play{
+           padding: 8px;
+           width: 15px ;
+           height: 15px;
+        }
+        .xclosebutton{
+            margin-top: 20px;
+        }
+
+
+
+    
+    
+        /*footer*/
+        .footer-inputs{
+            width: 80%;
+            height: 120px;
+        }
+        .footer-text{
+            width: 50%;
+        }
+        .footer-text-text{
+            font-size: 120%;
+            width: 100%;
+        }
+        .footer-input{
+            display: flex;
+            width: 50%;
+            align-items: center;
+        }
+        .email{
+            width: 60%;
+            height: 20px;
+            border-radius: 5px;
+            font-size: 8px;
+        }
+        .email::placeholder{
+            padding-left: 2px;
+        }
+        .Subscribe{
+            width: 40%;
+            height: 25px;
+            font-size: 8px;
+            border-radius: 5px;
+        }
+        .footer-text-text{
+            font-size: 14px;
+        }
+        .final-details{
+            margin-top: 0px;
+            font-size: 11px;
+        }
+    
+    
+    }
+    @media only screen and (max-width: 400px) {
+        .header{
+            height: 50px;
+        }
+        .nav-texts{
+            font-size: 50%;
+        }
+        .header-logo-text{
+            font-size: 70%;
+        }
+        .email{
+            width: 40px;
+            height: 10px;
+        }
+        .searchbaricon{
+            width: 5px;
+            height: 5px;
+            padding: 5px;
+        }
+        .container1-cart{
+            width: 50px;
+            height: 12px;
+        }
+        .container1-cart-text{
+            font-size: 50%;
+        }
+        .cart-icon{
+            width: 15px;
+            height: 15px;
+        }
+        .header-logo1{
+            width: 15px;
+            height: 25px;
+        }
+        .low-background{
+            height: 100px;
+        }
+        .about-us{
+            font-size: 30px;
+        }
+        .quantitiy{
+            font-size: 10px;
+        }
+        .better-text{
+            font-size: 15px;
+        }
+        .txili-texts1{
+            height: 250px;
+        }
+        .milkbottle{
+            width: 15px;
+            height: 20px;
+        }
+        .text-main{
+            font-size: 8px;
+        }
+        .text-notmain{
+            font-size: 5px;
+            margin-top: 3px;
+        }
+        .txileuloba{
+            width: 130px;
+            height: 200px;
+        }
+        .what-we-grow{
+            width: 100px;
+        }
+    
+    
+    
+        .footer-text{
+            width: 50%;
+        }
+        .footer-text-text{
+            font-size: 120%;
+            width: 100%;
+        }
+        .footer-text-text{
+            font-size: 14px;
+        }
+        .final-details{
+            margin-top: 0px;
+            font-size: 7px;
+        }
+        
+    }
+    @media only screen and (max-width: 300px) {
+
+    .better-text{
+        font-size: 12px;
+    }
+    .txili-texts1{
+        height: 200px;
+    }
+    .milkbottle{
+        width: 10px;
+        height: 10px;
+    }
+    .text-main{
+        font-size: 7px;
+    }
+    .text-notmain{
+        font-size: 5px;
+        margin-top: 0px;
+    }
+    .txileuloba{
+        width: 100px;
+        height: 150px;
+    }
+    .what-we-grow{
+        width: 100px;
+    }
+    .button{
+        width: 100px;
+        height: 20px;
+        font-size: 10px;
+        border-radius: 5px;
+    }
+}
